@@ -4098,9 +4098,9 @@ var DonateManager = class {
       cls: "mp-about-intro"
     });
     introEl.createSpan({ text: "\u4F60\u597D\uFF0C\u6211\u662F" });
-    introEl.createSpan({ text: "\u3010\u591C\u534A\u3011", cls: "mp-about-name" });
-    introEl.createSpan({ text: "\uFF0C\u4E00\u540D" });
-    introEl.createSpan({ text: "\u5168\u804C\u5199\u4F5C\u4E0E\u72EC\u7ACB\u5F00\u53D1\u8005", cls: "mp-about-identity" });
+    introEl.createSpan({ text: "\u3010Ai\u6DC7\u6A66\u5B66\u3011", cls: "mp-about-name" });
+    introEl.createSpan({ text: "\uFF0C\u4E13\u6CE8\u4E8E" });
+    introEl.createSpan({ text: "AI\u4E0E\u521B\u4F5C\u5DE5\u5177\u5206\u4EAB", cls: "mp-about-identity" });
     introEl.createSpan({ text: "\u3002" });
     const roleList = authorSection.createEl("div", {
       cls: "mp-about-roles"
@@ -4108,7 +4108,7 @@ var DonateManager = class {
     const roleEl = roleList.createEl("p", {
       cls: "mp-about-role"
     });
-    roleEl.createSpan({ text: "\u8FD9\u6B3E\u63D2\u4EF6\u662F\u6211\u4E3A\u4E86\u5728 Obsidian \u5199\u4F5C\u540E\uFF0C" });
+    roleEl.createSpan({ text: "\u8FD9\u6B3E\u63D2\u4EF6\u662F\u4E3A\u4E86\u5728 Obsidian \u5199\u4F5C\u540E\uFF0C" });
     roleEl.createEl("br");
     roleEl.createSpan({ text: "\u65E0\u9700\u7E41\u7410\u6392\u7248\u4E00\u952E\u5373\u53EF\u53D1\u5E03\u5230\u516C\u4F17\u53F7\u800C\u5F00\u53D1\u7684\u5DE5\u5177\uFF0C" });
     roleEl.createEl("br");
@@ -4147,9 +4147,11 @@ var DonateManager = class {
     const mpDescEl = mpSection.createEl("p", {
       cls: "mp-about-desc"
     });
-    mpDescEl.createSpan({ text: "\u5982\u679C\u4F60\u60F3\u4E86\u89E3\u66F4\u591A\u5173\u4E8E\u521B\u4F5C\u3001\u6548\u7387\u5DE5\u5177\u7684\u5C0F\u6280\u5DE7\uFF0C" });
+    mpDescEl.createSpan({ text: "\u5982\u679C\u4F60\u60F3\u4E86\u89E3\u66F4\u591A\u5173\u4E8E" });
+    mpDescEl.createSpan({ text: "AI\u3001\u521B\u4F5C\u5DE5\u5177\u3001\u6548\u7387\u63D0\u5347", cls: "mp-about-highlight" });
+    mpDescEl.createSpan({ text: "\u7684\u5C0F\u6280\u5DE7\uFF0C" });
     mpDescEl.createEl("br");
-    mpDescEl.createSpan({ text: "\u6216\u8005\u5173\u6CE8\u6211\u672A\u6765\u7684\u5199\u4F5C\u52A8\u6001\uFF0C\u6B22\u8FCE\u5173\u6CE8\u6211\u7684\u5FAE\u4FE1\u516C\u4F17\u53F7\u3002" });
+    mpDescEl.createSpan({ text: "\u6216\u8005\u5173\u6CE8\u6211\u672A\u6765\u7684\u5206\u4EAB\u52A8\u6001\uFF0C\u6B22\u8FCE\u5173\u6CE8\u6211\u7684\u5FAE\u4FE1\u516C\u4F17\u53F7\u3002" });
     mpSection.createEl("h4", {
       text: "\u5FAE\u4FE1\u516C\u4F17\u53F7",
       cls: "mp-about-subtitle"
@@ -5872,7 +5874,7 @@ var MPSettingTab = class extends import_obsidian10.PluginSettingTab {
     const layoutContainer = containerEl.createDiv("mp-settings-layout");
     const settingsSidebar = layoutContainer.createDiv("mp-settings-sidebar");
     const sidebarHeader = settingsSidebar.createDiv("mp-settings-sidebar-header");
-    sidebarHeader.createEl("h2", { text: "MP Preview" });
+    sidebarHeader.createEl("h2", { text: "Ai-qitongxue Preview" });
     const settingsList = settingsSidebar.createDiv("mp-settings-list");
     this.renderSectionTitle(settingsList, "\u57FA\u7840\u8BBE\u7F6E");
     this.renderTemplateSettingsList(settingsList);
@@ -6842,12 +6844,12 @@ var MPPlugin = class extends import_obsidian11.Plugin {
       VIEW_TYPE_MP,
       (leaf) => new MPView(leaf, this.templateManager, this.settingsManager)
     );
-    this.addRibbonIcon("eye", "\u6253\u5F00\u516C\u4F17\u53F7\u9884\u89C8", () => {
+    this.addRibbonIcon("eye", "\u6253\u5F00Ai\u6DC7\u6A66\u5B66\u6392\u7248\u9884\u89C8", () => {
       this.activateView();
     });
     this.addCommand({
       id: "open-mp-preview",
-      name: "\u6253\u5F00\u516C\u4F17\u53F7\u9884\u89C8\u63D2\u4EF6",
+      name: "\u6253\u5F00Ai\u6DC7\u6A66\u5B66\u6392\u7248\u9884\u89C8",
       callback: async () => {
         await this.activateView();
       }

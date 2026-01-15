@@ -60,7 +60,7 @@ export class MPSettingTab extends PluginSettingTab {
 
         // 侧边栏头部
         const sidebarHeader = settingsSidebar.createDiv('mp-settings-sidebar-header');
-        sidebarHeader.createEl('h2', { text: 'MP Preview' });
+        sidebarHeader.createEl('h2', { text: 'Ai-qitongxue Preview' });
 
         // 设置项列表
         const settingsList = settingsSidebar.createDiv('mp-settings-list');
