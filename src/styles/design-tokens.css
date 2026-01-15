@@ -1,0 +1,106 @@
+/**
+ * MP Preview 设计系统 - 设计令牌
+ * 统一管理颜色、间距、圆角、阴影、动画等设计变量
+ */
+
+:root {
+    /* ========== 颜色系统 ========== */
+
+    /* 品牌色 */
+    --mp-brand-primary: #5B9BD5;
+    --mp-brand-secondary: #7B68EE;
+    --mp-brand-accent: #FF6B6B;
+    --mp-brand-success: #51CF66;
+    --mp-brand-warning: #FFD93D;
+
+    /* 语义颜色 */
+    --mp-color-text: var(--text-normal);
+    --mp-color-text-muted: var(--text-muted);
+    --mp-color-text-accent: var(--text-accent);
+    --mp-color-bg-primary: var(--background-primary);
+    --mp-color-bg-secondary: var(--background-secondary);
+    --mp-color-bg-hover: var(--background-modifier-hover);
+    --mp-color-border: var(--background-modifier-border);
+    --mp-color-border-hover: var(--background-modifier-border-hover);
+
+    /* 表面颜色 */
+    --mp-surface-base: var(--background-primary);
+    --mp-surface-elevated: var(--background-primary-alt);
+    --mp-surface-overlay: var(--background-modifier-cover);
+
+    /* ========== 间距系统 ========== */
+
+    --mp-spacing-xs: 4px;
+    --mp-spacing-sm: 8px;
+    --mp-spacing-md: 12px;
+    --mp-spacing-lg: 16px;
+    --mp-spacing-xl: 20px;
+    --mp-spacing-2xl: 24px;
+    --mp-spacing-3xl: 32px;
+
+    /* 组件内间距 */
+    --mp-padding-sm: var(--mp-spacing-sm) var(--mp-spacing-md);
+    --mp-padding-md: var(--mp-spacing-md) var(--mp-spacing-lg);
+    --mp-padding-lg: var(--mp-spacing-lg) var(--mp-spacing-xl);
+
+    /* ========== 圆角系统 ========== */
+
+    --mp-radius-sm: 4px;
+    --mp-radius-md: 6px;
+    --mp-radius-lg: 8px;
+    --mp-radius-xl: 12px;
+    --mp-radius-full: 9999px;
+
+    /* ========== 阴影系统 ========== */
+
+    --mp-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --mp-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --mp-shadow-md: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --mp-shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.12);
+    --mp-shadow-xl: 0 8px 32px rgba(0, 0, 0, 0.15);
+
+    /* 内阴影 */
+    --mp-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+
+    /* ========== 字体系统 ========== */
+
+    --mp-font-size-xs: 11px;
+    --mp-font-size-sm: 12px;
+    --mp-font-size-base: 13px;
+    --mp-font-size-md: 14px;
+    --mp-font-size-lg: 16px;
+    --mp-font-size-xl: 18px;
+    --mp-font-size-2xl: 24px;
+
+    /* 字重 */
+    --mp-font-weight-normal: 400;
+    --mp-font-weight-medium: 500;
+    --mp-font-weight-semibold: 600;
+    --mp-font-weight-bold: 700;
+
+    /* ========== 过渡动画 ========== */
+
+    --mp-duration-fast: 150ms;
+    --mp-duration-base: 200ms;
+    --mp-duration-slow: 300ms;
+    --mp-easing: cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* ========== Z-index 层级 ========== */
+
+    --mp-z-dropdown: 1000;
+    --mp-z-modal: 1100;
+    --mp-z-tooltip: 1200;
+    --mp-z-notification: 1300;
+}
+
+/* 深色模式优化 */
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* 深色模式下调整阴影 */
+        --mp-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.2);
+        --mp-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+        --mp-shadow-md: 0 2px 8px rgba(0, 0, 0, 0.4);
+        --mp-shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.5);
+        --mp-shadow-xl: 0 8px 32px rgba(0, 0, 0, 0.6);
+    }
+}

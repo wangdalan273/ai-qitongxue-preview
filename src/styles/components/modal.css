@@ -1,0 +1,64 @@
+/**
+ * 统一模态框样式系统
+ */
+
+.mp-modal {
+    max-width: 600px;
+    width: 90vw;
+    max-height: 85vh;
+    background: var(--mp-color-bg-primary);
+    border-radius: var(--mp-radius-xl);
+    box-shadow: var(--mp-shadow-xl);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* 模态框头部 */
+.mp-modal__header {
+    padding: var(--mp-spacing-lg) var(--mp-spacing-xl);
+    border-bottom: 1px solid var(--mp-color-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mp-modal__title {
+    margin: 0;
+    font-size: var(--mp-font-size-xl);
+    font-weight: var(--mp-font-weight-semibold);
+    color: var(--mp-color-text);
+}
+
+.mp-modal__close {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: var(--mp-color-text-muted);
+    cursor: pointer;
+    border-radius: var(--mp-radius-sm);
+    transition: all var(--mp-duration-fast) var(--mp-easing);
+}
+
+.mp-modal__close:hover {
+    background: var(--mp-color-bg-hover);
+    color: var(--mp-color-text);
+}
+
+/* 模态框内容 */
+.mp-modal__body {
+    padding: var(--mp-spacing-xl);
+    overflow-y: auto;
+    flex: 1;
+}
+
+/* 模态框底部 */
+.mp-modal__footer {
+    padding: var(--mp-spacing-lg) var(--mp-spacing-xl);
+    border-top: 1px solid var(--mp-color-border);
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--mp-spacing-md);
+}

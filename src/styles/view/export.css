@@ -1,0 +1,84 @@
+/* 导出按钮样式 */
+.mp-controls-group .mp-export-button {
+    background-color: var(--background-primary);
+    color: var(--text-accent);
+    border: 1px solid var(--text-accent);
+    flex: 0 0 auto;
+    min-width: 90px;
+}
+
+.mp-controls-group .mp-export-button:hover {
+    background-color: var(--text-accent);
+    color: var(--text-on-accent);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px var(--background-modifier-box-shadow);
+}
+
+.mp-controls-group .mp-export-button:disabled {
+    opacity: 0.5;
+    background: var(--background-primary) !important;
+    color: var(--text-muted) !important;
+    cursor: not-allowed !important;
+    transform: none;
+}
+
+/* 导出设置模态框样式 */
+.mp-export-settings-modal {
+    min-width: 500px;
+    max-width: 600px;
+}
+
+.mp-export-modal-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-normal);
+}
+
+.mp-export-modal-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+.mp-export-modal-btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.mp-export-modal-btn:hover {
+    background: var(--background-modifier-hover);
+    transform: translateY(-1px);
+}
+
+.mp-export-modal-btn-cancel {
+    border-color: var(--background-modifier-border);
+}
+
+.mp-export-modal-btn-confirm {
+    background-color: var(--text-accent);
+    color: var(--text-on-accent);
+    border-color: var(--text-accent);
+}
+
+.mp-export-modal-btn-confirm:hover {
+    background-color: var(--text-accent);
+    color: var(--text-on-accent);
+}
+
+/* Setting 组件样式调整 */
+.mp-export-settings-modal .setting-item {
+    border-bottom: 1px solid var(--background-modifier-border-hover);
+}
+
+.mp-export-settings-modal .setting-item:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,67 @@
+{
+    "id": "scheme1",
+    "name": "默认模板",
+    "description": "基于 MD 默认主题（经典主题）转换而来",
+    "styles": {
+        "container": "",
+        "title": {
+            "h1": {
+                "base": "display: table; padding: 0 1em; border-bottom: 2px solid #576b95; margin: 2em auto 1em; color: #24292e; font-size: 1.2em; font-weight: bold; text-align: center;",
+                "content": "",
+                "after": ""
+            },
+            "h2": {
+                "base": "display: table; padding: 0 0.2em; margin: 4em auto 2em; color: #fff; background: #576b95; font-size: 1.2em; font-weight: bold; text-align: center;",
+                "content": "",
+                "after": ""
+            },
+            "h3": {
+                "base": "padding-left: 8px; border-left: 3px solid #576b95; margin: 2em 8px 0.75em 0; color: #24292e; font-size: 1.1em; font-weight: bold; line-height: 1.2;",
+                "content": "",
+                "after": ""
+            },
+            "base": {
+                "base": "margin: 2em 8px 0.5em; color: #576b95; font-size: 1em; font-weight: bold;",
+                "content": "",
+                "after": ""
+            }
+        },
+        "paragraph": "margin: 1.5em 8px; letter-spacing: 0.1em; color: #24292e; font-size: 1em; line-height: 1.8;",
+        "list": {
+            "container": "padding-left: 1em; margin-left: 0; color: #24292e;",
+            "item": "display: block; margin: 0.2em 8px; color: #24292e; font-size: 1em; line-height: 1.8;",
+            "taskList": "display: block; margin: 0.2em 8px; color: #24292e; font-size: 1em; line-height: 1.8; list-style: none;"
+        },
+        "code": {
+            "header": {
+                "container": "margin-bottom: 1em; display: flex; gap: 6px;",
+                "dot": "width: 12px; height: 12px; border-radius: 50%;",
+                "colors": [
+                    "#ff5f56",
+                    "#ffbd2e",
+                    "#27c93f"
+                ]
+            },
+            "block": "font-size: 90%; overflow-x: auto; border-radius: 8px; padding: 1em; line-height: 1.5; margin: 10px 8px; color: #24292e; background: #f6f8fa; border: 1px solid #e1e4e8;",
+            "inline": "font-size: 90%; color: #d14; background: rgba(27, 31, 35, 0.05); padding: 3px 5px; border-radius: 4px;"
+        },
+        "quote": "font-style: normal; padding: 1em; border-left: 4px solid #576b95; border-radius: 6px; color: #24292e; background: #f6f8fa; margin: 1em 0;",
+        "image": "display: block; max-width: 100%; margin: 0.1em auto 0.5em; border-radius: 4px;",
+        "link": "color: #576b95; text-decoration: none;",
+        "emphasis": {
+            "strong": "color: #576b95; font-weight: bold; font-size: inherit;",
+            "em": "font-style: italic; font-size: inherit;",
+            "del": "text-decoration: line-through; color: #24292e;"
+        },
+        "table": {
+            "container": "color: #24292e; width: 100%; margin: 1.5em 8px; border-collapse: collapse;",
+            "header": "font-weight: bold; color: #24292e; border: 1px solid #dfdfdf; padding: 0.25em 0.5em; word-break: keep-all; background: rgba(0, 0, 0, 0.05); font-size: 1em;",
+            "cell": "border: 1px solid #dfdfdf; padding: 0.25em 0.5em; color: #24292e; word-break: keep-all; font-size: 1em;"
+        },
+        "hr": "border-style: solid; border-width: 2px 0 0; border-color: rgba(0, 0, 0, 0.1); height: 0.4em; margin: 1.5em 0;",
+        "footnote": {
+            "ref": "color: #576b95; text-decoration: none; font-size: 0.8em;",
+            "backref": "color: #576b95; text-decoration: none; font-size: 0.8em;"
+        }
+    }
+}

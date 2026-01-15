@@ -1,0 +1,67 @@
+{
+    "id": "wechat-ft",
+    "name": "金融时报",
+    "description": "专业财经媒体风格，衬线字体",
+    "styles": {
+        "container": "max-width: 680px; margin: 0 auto; padding: 16px 20px 40px 20px; font-family: Georgia, \"Times New Roman\", Times, serif; font-size: 17px; line-height: 1.75 !important; color: #33302e !important; background-color: #fff1e5 !important; word-wrap: break-word;",
+        "title": {
+            "h1": {
+                "base": "font-size: 38px; font-weight: 600; color: #000 !important; line-height: 1.2 !important; margin: 56px 0 24px; font-family: Georgia, serif; letter-spacing: -0.01em; border-bottom: 4px solid #990f3d; padding-bottom: 16px;",
+                "content": "",
+                "after": ""
+            },
+            "h2": {
+                "base": "font-size: 30px; font-weight: 600; color: #990f3d !important; line-height: 1.3 !important; margin: 48px 0 20px; font-family: Georgia, serif; border-left: 6px solid #990f3d; padding-left: 20px;",
+                "content": "",
+                "after": ""
+            },
+            "h3": {
+                "base": "font-size: 24px; font-weight: 600; color: #33302e !important; line-height: 1.4 !important; margin: 40px 0 16px; font-family: Georgia, serif; border-bottom: 2px solid #cec6b9; padding-bottom: 8px;",
+                "content": "",
+                "after": ""
+            },
+            "base": {
+                "base": "font-size: 20px; font-weight: 600; color: #33302e !important; line-height: 1.5 !important; margin: 32px 0 12px; font-family: Georgia, serif;",
+                "content": "",
+                "after": ""
+            }
+        },
+        "paragraph": "margin: 20px 0 !important; line-height: 1.75 !important; color: #33302e !important;",
+        "list": {
+            "container": "margin: 24px 0; padding-left: 32px;",
+            "item": "margin: 12px 0; line-height: 1.75 !important; color: #33302e !important;",
+            "taskList": "margin: 12px 0; line-height: 1.75 !important; color: #33302e !important; list-style: none;"
+        },
+        "code": {
+            "header": {
+                "container": "margin-bottom: 1em; display: flex; gap: 6px;",
+                "dot": "width: 12px; height: 12px; border-radius: 50%;",
+                "colors": [
+                    "#ff5f56",
+                    "#ffbd2e",
+                    "#27c93f"
+                ]
+            },
+            "block": "margin: 28px 0; padding: 24px; background-color: #fff !important; border-left: 4px solid #990f3d; overflow-x: auto; line-height: 1.6 !important;",
+            "inline": "font-family: \"Courier New\", Courier, monospace; font-size: 15px; padding: 3px 8px; background-color: #fff !important; color: #990f3d !important; border: 1px solid #cec6b9; font-weight: 600;"
+        },
+        "quote": "margin: 24px 0; padding: 14px 20px; background-color: #fff1e5 !important; color: #990f3d !important; font-size: 17px; line-height: 1.6 !important; font-style: italic; font-family: Georgia, serif; border-left: 6px solid #990f3d; box-shadow: 0 2px 8px rgba(153, 15, 61, 0.1);",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 32px auto; border: 3px solid #990f3d;",
+        "link": "color: #0d7680 !important; text-decoration: none; border-bottom: 2px solid #0d7680; font-weight: 600;",
+        "emphasis": {
+            "strong": "font-weight: 700; color: #990f3d !important;",
+            "em": "font-style: italic; color: #33302e !important;",
+            "del": "text-decoration: line-through; color: #33302e !important;"
+        },
+        "table": {
+            "container": "width: 100%; margin: 32px 0; border-collapse: collapse; font-size: 16px; background-color: #fff !important;",
+            "header": "background-color: #990f3d !important; color: #fff !important; padding: 14px 16px; text-align: left; border: 1px solid #990f3d; font-weight: 700; font-family: Georgia, serif;",
+            "cell": "padding: 14px 16px; border: 1px solid #cec6b9; color: #33302e !important; background-color: #fff !important;"
+        },
+        "hr": "margin: 48px auto; border: none; height: 2px; background-color: #990f3d !important; max-width: 80px;",
+        "footnote": {
+            "ref": "color: #990f3d !important; text-decoration: none; font-size: 0.8em;",
+            "backref": "color: #990f3d !important; text-decoration: none; font-size: 0.8em;"
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "id": "wechat-elegant",
+    "name": "优雅简约",
+    "description": "宋体衬线风格，优雅简约",
+    "styles": {
+        "container": "max-width: 720px; margin: 0 auto; padding: 12px 20px 30px 20px; font-family: \"Songti SC\", \"SimSun\", Georgia, serif; font-size: 17px; line-height: 2 !important; color: #333 !important; background-color: #fff !important; word-wrap: break-word;",
+        "title": {
+            "h1": {
+                "base": "font-size: 28px; font-weight: 400; color: #1a1a1a !important; line-height: 1.5 !important; margin: 48px 0 24px; text-align: center; letter-spacing: 2px;",
+                "content": "",
+                "after": ""
+            },
+            "h2": {
+                "base": "font-size: 24px; font-weight: 400; color: #2c2c2c !important; line-height: 1.5 !important; margin: 40px 0 20px; text-align: center; letter-spacing: 1px;",
+                "content": "",
+                "after": ""
+            },
+            "h3": {
+                "base": "font-size: 20px; font-weight: 400; color: #3a3a3a !important; line-height: 1.6 !important; margin: 32px 0 16px; letter-spacing: 0.5px;",
+                "content": "",
+                "after": ""
+            },
+            "base": {
+                "base": "font-size: 18px; font-weight: 400; color: #444 !important; line-height: 1.6 !important; margin: 28px 0 14px;",
+                "content": "",
+                "after": ""
+            }
+        },
+        "paragraph": "margin: 20px 0 !important; line-height: 2.2 !important; color: #444 !important; text-indent: 2em; letter-spacing: 0.5px;",
+        "list": {
+            "container": "margin: 20px 0; padding-left: 32px;",
+            "item": "margin: 12px 0; line-height: 2 !important;",
+            "taskList": "margin: 12px 0; line-height: 2 !important; list-style: none;"
+        },
+        "code": {
+            "header": {
+                "container": "margin-bottom: 1em; display: flex; gap: 6px;",
+                "dot": "width: 12px; height: 12px; border-radius: 50%;",
+                "colors": [
+                    "#ff5f56",
+                    "#ffbd2e",
+                    "#27c93f"
+                ]
+            },
+            "block": "margin: 28px 0; padding: 20px; background-color: #f9f9f9 !important; border: 1px solid #e5e5e5; border-radius: 8px; overflow-x: auto; line-height: 1.8 !important;",
+            "inline": "font-family: Menlo, Monaco, \"Courier New\", monospace; font-size: 14px; padding: 2px 6px; background-color: #f5f5f5 !important; color: #8b4513 !important; border-radius: 3px;"
+        },
+        "quote": "margin: 20px auto; padding: 10px 20px; background-color: transparent !important; border-left: 2px solid #ccc; color: #666 !important; max-width: 600px; line-height: 1.6 !important;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 32px auto; border-radius: 8px;",
+        "link": "color: #8b7355 !important; text-decoration: none; border-bottom: 1px dotted #8b7355;",
+        "emphasis": {
+            "strong": "font-weight: 600; color: #1a1a1a !important;",
+            "em": "font-style: italic; color: #666 !important;",
+            "del": "text-decoration: line-through; color: #444 !important;"
+        },
+        "table": {
+            "container": "width: 100%; margin: 28px 0; border-collapse: collapse; font-size: 15px;",
+            "header": "background-color: #f8f8f8 !important; padding: 12px; text-align: left; border-bottom: 2px solid #d0d0d0; font-weight: 400; color: #555 !important;",
+            "cell": "padding: 12px; border-bottom: 1px solid #e5e5e5;"
+        },
+        "hr": "margin: 48px auto; border: none; text-align: center; height: 1px; background-color: #e0e0e0 !important; max-width: 200px;",
+        "footnote": {
+            "ref": "color: #8b7355 !important; text-decoration: none; font-size: 0.8em;",
+            "backref": "color: #8b7355 !important; text-decoration: none; font-size: 0.8em;"
+        }
+    }
+}

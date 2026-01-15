@@ -1,0 +1,10 @@
+{
+    "id": "ai-qitongxue-preview",
+    "name": "Ai淇橦学排版预览",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "一键将 Markdown 文档转换为微信公众号格式，支持多种模板样式和自定义主题",
+    "author": "Ai淇橦学",
+    "authorUrl": "https://github.com/wangdalan273",
+    "isDesktopOnly": true
+}

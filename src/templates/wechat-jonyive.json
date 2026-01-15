@@ -1,0 +1,67 @@
+{
+    "id": "wechat-jonyive",
+    "name": "Jony Ive",
+    "description": "Apple 前设计总监风格，极简主义",
+    "styles": {
+        "container": "max-width: 620px; margin: 0 auto; padding: 16px 24px 40px 24px; font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"SF Pro Text\", \"Helvetica Neue\", Arial, sans-serif; font-size: 17px; line-height: 1.6 !important; color: #6e6e73 !important; background-color: #fbfbfd !important; word-wrap: break-word;",
+        "title": {
+            "h1": {
+                "base": "font-size: 39px; font-weight: 200; color: #1d1d1f !important; line-height: 1.15 !important; margin: 48px 0 24px; letter-spacing: -0.025em;",
+                "content": "",
+                "after": ""
+            },
+            "h2": {
+                "base": "font-size: 28px; font-weight: 300; color: #1d1d1f !important; line-height: 1.2 !important; margin: 40px 0 20px; letter-spacing: -0.018em;",
+                "content": "",
+                "after": ""
+            },
+            "h3": {
+                "base": "font-size: 20px; font-weight: 400; color: #1d1d1f !important; line-height: 1.25 !important; margin: 32px 0 16px; letter-spacing: -0.008em;",
+                "content": "",
+                "after": ""
+            },
+            "base": {
+                "base": "font-size: 15px; font-weight: 500; color: #1d1d1f !important; line-height: 1.3 !important; margin: 24px 0 12px;",
+                "content": "",
+                "after": ""
+            }
+        },
+        "paragraph": "margin: 20px 0 !important; line-height: 1.6 !important; color: #6e6e73 !important; font-weight: 300;",
+        "list": {
+            "container": "margin: 20px 0; padding-left: 28px;",
+            "item": "margin: 12px 0; line-height: 1.6 !important; color: #6e6e73 !important; padding-left: 24px; position: relative; font-weight: 300;",
+            "taskList": "margin: 12px 0; line-height: 1.6 !important; color: #6e6e73 !important; padding-left: 24px; position: relative; font-weight: 300; list-style: none;"
+        },
+        "code": {
+            "header": {
+                "container": "margin-bottom: 1em; display: flex; gap: 6px;",
+                "dot": "width: 12px; height: 12px; border-radius: 50%;",
+                "colors": [
+                    "#ff5f56",
+                    "#ffbd2e",
+                    "#27c93f"
+                ]
+            },
+            "block": "margin: 28px 0; padding: 20px; background-color: #f5f5f7 !important; border-radius: 10px; overflow-x: auto; line-height: 1.5 !important;",
+            "inline": "font-family: \"SF Mono\", Monaco, Menlo, monospace; font-size: 14px; padding: 2px 6px; background-color: #f5f5f7 !important; color: #6e6e73 !important; border-radius: 6px; font-weight: 400;"
+        },
+        "quote": "margin: 32px auto; padding: 0; background-color: transparent !important; border-left: none; color: #1d1d1f !important; font-size: 18px; line-height: 1.4 !important; font-weight: 300; text-align: center; max-width: 520px; font-style: normal;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 40px auto; border-radius: 10px;",
+        "link": "color: #06c !important; text-decoration: none; font-weight: 400;",
+        "emphasis": {
+            "strong": "font-weight: 500; color: #1d1d1f !important;",
+            "em": "font-style: normal; color: #6e6e73 !important; font-weight: 300;",
+            "del": "text-decoration: line-through; color: #6e6e73 !important;"
+        },
+        "table": {
+            "container": "width: 100%; margin: 32px 0; border-collapse: collapse; font-size: 15px;",
+            "header": "background-color: #f5f5f7 !important; padding: 12px 16px; text-align: left; border: none; font-weight: 500; color: #1d1d1f !important;",
+            "cell": "padding: 12px 16px; border: none; border-top: 1px solid #d2d2d7; color: #6e6e73 !important; font-weight: 300;"
+        },
+        "hr": "margin: 56px auto; border: none; height: 1px; background-color: #d2d2d7 !important; max-width: 48px;",
+        "footnote": {
+            "ref": "color: #06c !important; text-decoration: none; font-size: 0.8em;",
+            "backref": "color: #06c !important; text-decoration: none; font-size: 0.8em;"
+        }
+    }
+}

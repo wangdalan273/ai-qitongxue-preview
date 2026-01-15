@@ -1,0 +1,65 @@
+/**
+ * 响应式设计
+ */
+
+/* ========== 平板 ========== */
+
+@media (max-width: 1024px) {
+    .mp-toolbar,
+    .mp-bottom-bar {
+        padding: var(--mp-spacing-sm);
+    }
+
+    .mp-controls-group {
+        gap: var(--mp-spacing-sm);
+    }
+
+    .custom-select-container {
+        min-width: 90px;
+        max-width: 120px;
+    }
+}
+
+/* ========== 小屏幕 ========== */
+
+@media (max-width: 768px) {
+    .mp-controls-group {
+        flex-wrap: wrap;
+    }
+
+    .custom-select-container,
+    .mp-font-size-group {
+        flex: 1 1 45%;
+        min-width: 100px;
+    }
+
+    .mp-copy-button,
+    .mp-export-button {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .mp-help-tooltip {
+        left: var(--mp-spacing-md);
+        right: var(--mp-spacing-md);
+        width: auto;
+    }
+}
+
+/* ========== 手机 ========== */
+
+@media (max-width: 480px) {
+    .mp-toolbar,
+    .mp-bottom-bar {
+        padding: var(--mp-spacing-sm);
+    }
+
+    .mp-about-modal {
+        width: 95vw;
+        max-width: none;
+    }
+
+    .mp-modal {
+        width: 95vw;
+    }
+}

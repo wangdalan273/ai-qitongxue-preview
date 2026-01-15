@@ -1,0 +1,42 @@
+{
+  "name": "ai-qitongxue-preview",
+  "version": "1.0.0",
+  "description": "Ai淇橦学排版预览 - 一键将 Markdown 文档转换为微信公众号格式",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "wechat",
+    "mp",
+    "preview",
+    "公众号",
+    "markdown"
+  ],
+  "author": "Ai淇橦学 <a15517856661@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangdalan273/ai-qitongxue-preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangdalan273/ai-qitongxue-preview/issues"
+  },
+  "homepage": "https://github.com/wangdalan273/ai-qitongxue-preview#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.17.3",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "nanoid": "^5.1.5"
+  }
+}
