@@ -24,3 +24,12 @@ npm-debug.log*
 # 环境变量
 .env
 .env.local
+
+# Claude 相关
+.claude/
+
+# HTML 主题源文件 (已有 JSON 提取脚本)
+zhuti/
+
+# 个人部署脚本
+submit-to-obsidian.bat
