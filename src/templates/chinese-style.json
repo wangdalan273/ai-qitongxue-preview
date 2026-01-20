@@ -1,0 +1,60 @@
+{
+  "id": "chinese-style",
+  "name": "中国风",
+  "styles": {
+    "container": "",
+    "title": {
+      "h1": {
+        "base": "display: block; padding: 0.8em 1.5em; margin: 1.5em auto 1.5em; color: #8b1e22; font-size: 22px; font-weight: bold; text-align: center; letter-spacing: 0.1em; line-height: 1.2; width: 80%; background-image: repeating-linear-gradient(45deg, rgba(139,30,34,0.03), rgba(139,30,34,0.03) 2px, transparent 2px, transparent 8px); border-top: 2px solid #8b1e22; border-bottom: 2px solid #8b1e22;",
+        "content": "",
+        "after": ""
+      },
+      "h2": {
+        "base": "margin: 2em 0 0.75em 0px; padding: 0px 0px 0.5em 12px; border-left: 4px solid #8b1e22; border-bottom: 1px dashed rgba(139,30,34,0.4); font-size: 20px; font-weight: bold; line-height: 1.2; color: #8b1e22; letter-spacing: 0.1em; font-family: 'KaiTi', 'STKaiti', 'SimSun', serif;",
+        "content": "",
+        "after": ""
+      },
+      "h3": {
+        "base": "padding: 0px 0px 0.4em 12px; font-size: 18px; line-height: 1.6; margin: 2em 0 0.75em; font-weight: 600; color: #8b1e22; text-shadow: 1px 1px 1px rgba(255,255,255,0.7); border-left: 4px solid #8b1e22; border-bottom: 1px dashed rgba(139,30,34,0.4);",
+        "content": "",
+        "after": ""
+      },
+      "base": {
+        "base": "margin: 1.5em 0 0.8em; color: #8b1e22; font-size: 16px; font-weight: bold; padding: 0.3em 0 0.3em 12px; letter-spacing: 0.1em; font-family: 'KaiTi', 'STKaiti', serif; border-left: 4px solid #8b1e22; border-bottom: 1px dashed rgba(139,30,34,0.3);",
+        "content": "",
+        "after": ""
+      }
+    },
+    "paragraph": "margin: 1.2em 0; letter-spacing: 0.1em; color: #333; text-align: justify; line-height: 2; font-size: 15px;",
+    "list": {
+      "container": "list-style: none; padding: 0; margin: 1em 0; font-size: 15px;",
+      "item": "margin: 0.5em 0; padding: 0; line-height: 1.8; font-size: 15px;"
+    },
+    "code": {
+      "header": {
+        "container": "",
+        "dot": "",
+        "colors": []
+      },
+      "block": "background: #faf8f5; border-radius: 8px; padding: 1.2em; margin: 1.5em 0; overflow-x: auto; font-size: 14px; line-height: 1.5; font-family: 'Source Code Pro', monospace; border-top: 3px solid #8b1e22; box-shadow: 0 2px 8px rgba(139, 30, 34, 0.1);",
+      "inline": "background: none; padding: 0; font-family: 'Source Code Pro', monospace; font-size: 14px; color: #333; line-height: 1.5;"
+    },
+    "quote": "font-style: normal; padding: 0.5em 1em; border-left: 4px solid #891e22; color: #666; background: rgba(139, 30, 34, 0.03); margin: 1.2em 0;",
+    "image": "max-width: 100%; margin: 1.5em auto; display: block; border: 8px solid white; box-shadow: 0 4px 10px rgba(0,0,0,0.1);",
+    "link": "color: #8b1e22; text-decoration: none; border-bottom: 1px solid rgba(139,30,34,0.3);",
+    "emphasis": {
+      "strong": "color: #8b1e22; font-weight: bold;",
+      "em": "color: #555; font-style: italic; font-family: 'KaiTi', 'STKaiti', serif;"
+    },
+    "table": {
+      "container": "width: 100%; border-collapse: collapse; margin: 1.5em 0; border: 1px solid rgba(139,30,34,0.3);",
+      "header": "background: linear-gradient(to bottom, rgba(139,30,34,0.15), rgba(139,30,34,0.05)); padding: 0.8em; text-align: left; font-weight: bold; border-bottom: 2px solid rgba(139,30,34,0.5);",
+      "cell": "padding: 0.8em; border-bottom: 1px solid rgba(139,30,34,0.1);"
+    },
+    "hr": "height: 1px; border: none; margin: 2.5em auto; background: linear-gradient(to right, rgba(139,30,34,0), rgba(139,30,34,0.5), rgba(139,30,34,0)); width: 80%; text-align: center; color: #8b1e22; font-size: 1.2em;",
+    "footnote": {
+      "ref": "",
+      "backref": ""
+    }
+  }
+}

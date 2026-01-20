@@ -36,6 +36,13 @@ const hischeEditorialTemplate = require('./hische-editorial.json');
 const andoConcreteTemplate = require('./ando-concrete.json');
 const gaudiOrganicTemplate = require('./gaudi-organic.json');
 
+// 来自 zhuti 文件夹的 5 种主题
+const byteStyleTemplate = require('./byte-style.json');
+const appleStyleTemplate = require('./apple-style.json');
+const sportStyleTemplate = require('./sport-style.json');
+const chineseStyleTemplate = require('./chinese-style.json');
+const cyberpunkTemplate = require('./cyberpunk.json');
+
 export const templates = {
     default: defaultTemplate,
     minimal: minimalTemplate,
@@ -71,4 +78,10 @@ export const templates = {
     'hische-editorial': hischeEditorialTemplate,
     'ando-concrete': andoConcreteTemplate,
     'gaudi-organic': gaudiOrganicTemplate,
+    // 来自 zhuti 文件夹的 5 种主题
+    'byte-style': byteStyleTemplate,
+    'apple-style': appleStyleTemplate,
+    'sport-style': sportStyleTemplate,
+    'chinese-style': chineseStyleTemplate,
+    'cyberpunk': cyberpunkTemplate,
 };
