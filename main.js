@@ -2478,12 +2478,342 @@ var require_gaudi_organic = __commonJS({
   }
 });
 
+// src/templates/byte-style.json
+var require_byte_style = __commonJS({
+  "src/templates/byte-style.json"(exports, module2) {
+    module2.exports = {
+      id: "byte-style",
+      name: "\u5B57\u8282\u8303",
+      styles: {
+        container: "",
+        title: {
+          h1: {
+            base: "padding: 0.6em 1.5em; margin: 1.5em 0 1.5em; color: #1d2129; font-size: 22px; font-weight: 600; text-align: center; background: linear-gradient(to right, rgba(22,119,255,0.02), rgba(5,212,205,0.05), rgba(22,119,255,0.02)); border-radius: 4px; border-top: 3px solid #1677ff; border-bottom: 1px solid rgba(5,212,205,0.5);",
+            content: "",
+            after: ""
+          },
+          h2: {
+            base: "padding: 0.4em 1.4em; margin: 3em 0 1.5em; color: #fff; background: linear-gradient(135deg, #1677ff, #05d4cd); font-size: 20px; font-weight: 600; text-align: center; border-radius: 8px 24px 8px 24px; box-shadow: 0 4px 12px rgba(5,212,205,0.15); letter-spacing: 0.1em;",
+            content: "",
+            after: ""
+          },
+          h3: {
+            base: "padding: 0.5em 1em 0.5em 12px; font-size: 18px; border-radius: 6px; line-height: 1.6; border-left: 4px solid #1677ff; border-right: 1px solid rgba(22,119,255,0.1); border-bottom: 1px solid rgba(22,119,255,0.1); border-top: 1px solid rgba(22,119,255,0.1); background: linear-gradient(to right, rgba(22,119,255,0.08), rgba(5,212,205,0.03)); color: #1677ff; margin: 2em 0 0.75em; font-weight: 600;",
+            content: "",
+            after: ""
+          },
+          base: {
+            base: "margin: 2em 0 0.5em; color: #05d4cd; font-size: 16px; font-weight: 500; border-radius: 6px; padding: 0.3em 0 0.3em 8px; border-left: 3px solid #05d4cd; border-bottom: 1px dashed rgba(5,212,205,0.3); background: linear-gradient(to right, rgba(5,212,205,0.06), rgba(22,119,255,0.02));",
+            content: "",
+            after: ""
+          }
+        },
+        paragraph: "margin: 1.2em 0; letter-spacing: 0.1em; color: #4e5969; text-align: justify; line-height: 1.8; font-size: 15px;",
+        list: {
+          container: "list-style: none; padding: 0; margin: 1.5em 0; color: #4e5969; font-size: 15px;",
+          item: "margin: 0.5em 0; padding: 0; line-height: 1.6; font-size: 15px;"
+        },
+        code: {
+          header: {
+            container: "",
+            dot: "",
+            colors: []
+          },
+          block: "font-size: 14px; overflow-x: auto; border-radius: 8px; padding: 1.2em; line-height: 1.5; margin: 1.5em 0; background: linear-gradient(to right, #1677ff, #05d4cd) 0 0 / 100% 3px no-repeat, #f7f8fa 0 3px; box-shadow: 0 2px 8px rgba(22, 119, 255, 0.1);",
+          inline: "background: none; padding: 0; font-family: 'SFMono-Regular', Consolas, Menlo, monospace; font-size: 14px; color: #1d2129; line-height: 1.5;"
+        },
+        quote: "font-style: normal; padding: 1em 1em 1em 2em; border-left: 4px solid #05d4cd; border-radius: 6px; color: #4e5969; background: #f2f3f5; margin: 1.5em 0; border-bottom: 0.2px solid rgba(5,212,205,0.1); border-top: 0.2px solid rgba(5,212,205,0.1); border-right: 0.2px solid rgba(5,212,205,0.1);",
+        image: "max-width: 100%; border-radius: 8px; margin: 1.5em auto; display: block; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid rgba(5,212,205,0.1);",
+        link: "color: #1677ff; text-decoration: none; border-bottom: 1px solid; border-image: linear-gradient(to right, rgba(22, 119, 255, 0), #1677ff, #05d4cd, rgba(5, 212, 205, 0)) 1;",
+        emphasis: {
+          strong: "color: #1677ff; font-weight: 600;",
+          em: "color: #05d4cd; font-style: italic;"
+        },
+        table: {
+          container: "width: 100%; border-collapse: collapse; margin: 1.5em 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05);",
+          header: "padding: 12px 16px; text-align: left; font-weight: 600; color: #1677ff; border-bottom: 1px solid rgba(5,212,205,0.1); background: linear-gradient(to right, rgba(22,119,255,0.05), rgba(5,212,205,0.05)); color: #05d4cd;",
+          cell: "padding: 10px 16px; border-bottom: 1px solid rgba(0,0,0,0.05); color: #4e5969;"
+        },
+        hr: "height: 2px; border: none; margin: 2.5em 0; background: linear-gradient(to right, rgba(22, 119, 255, 0), #1677ff, #05d4cd, rgba(5, 212, 205, 0));",
+        footnote: {
+          ref: "",
+          backref: ""
+        }
+      }
+    };
+  }
+});
+
+// src/templates/apple-style.json
+var require_apple_style = __commonJS({
+  "src/templates/apple-style.json"(exports, module2) {
+    module2.exports = {
+      id: "apple-style",
+      name: "\u82F9\u679C\u8303",
+      styles: {
+        container: "",
+        title: {
+          h1: {
+            base: "padding: 0.8em 1.5em; margin: 1.4em 0 1em; font-size: 22px; font-weight: 700; text-align: center; letter-spacing: 0.1em; line-height: 1.2; background: linear-gradient(135deg, #007aff 0%, #5856d6 50%, #ff2d55 100%); color: #ffffff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,122,255,0.2);",
+            content: "",
+            after: ""
+          },
+          h2: {
+            base: "padding: 0.4em 0 0.5em 0.8em; margin: 1.8em 0 1em; color: #1d1d1f; font-size: 20px; font-weight: 600; text-align: left; border-left: 3px solid; border-image: linear-gradient(to bottom, #007aff, #5856d6) 1;",
+            content: "",
+            after: ""
+          },
+          h3: {
+            base: "padding: 0.3em 0 0.4em 0.7em; margin: 1.6em 0 0.8em; color: #1d1d1f; font-size: 18px; font-weight: 600; text-align: left; border-left: 2px solid; border-image: linear-gradient(to bottom, #34c759, #5856d6) 1;",
+            content: "",
+            after: ""
+          },
+          base: {
+            base: "padding: 0.2em 0 0.2em 0.6em; margin: 1.5em 0 0.8em; color: #1d1d1f; font-size: 16px; font-weight: 600; text-align: left; border-left: 2px solid #ffcc00;",
+            content: "",
+            after: ""
+          }
+        },
+        paragraph: "margin: 1.2em 0; letter-spacing: 0.1em; color: #333333; text-align: justify; line-height: 1.8; font-size: 15px;",
+        list: {
+          container: "list-style: none; padding: 0; margin: 1.2em 0; color: #333333; font-size: 15px;",
+          item: "margin: 0.4em 0; padding: 0; line-height: 1.7; font-size: 15px;"
+        },
+        code: {
+          header: {
+            container: "",
+            dot: "",
+            colors: []
+          },
+          block: "font-size: 14px; overflow-x: auto; border-radius: 8px; padding: 1.2em; line-height: 1.5; margin: 1.5em 0; background: linear-gradient(to right, #007aff, #5856d6, #ff2d55) 0 0 / 100% 3px no-repeat, #fbfbfd 0 3px; box-shadow: 0 4px 15px rgba(88, 86, 214, 0.1);",
+          inline: "background: none; padding: 0; font-family: 'SFMono-Regular', Consolas, Menlo, monospace; font-size: 14px; color: #1d1d1f; line-height: 1.5;"
+        },
+        quote: "font-style: normal; padding: 1em 1.2em; border-left: 4px solid; border-image: linear-gradient(to bottom, #007aff, #5856d6, #ff2d55) 1; color: #333333; background: rgba(0,0,0,0.02); border-radius: 8px; margin: 1.5em 0;",
+        image: "max-width: 100%; border-radius: 8px; margin: 1.5em auto; display: block; box-shadow: 0 8px 25px rgba(0,0,0,0.1);",
+        link: "color: #007aff; text-decoration: none; border-bottom: 1px solid; border-image: linear-gradient(to right, rgba(0, 122, 255, 0), #007aff, #5856d6, #ff2d55, rgba(255, 45, 85, 0)) 1; transition: color 0.3s ease;",
+        emphasis: {
+          strong: "font-weight: 600; background-image: linear-gradient(135deg, #007aff, #5856d6); -webkit-background-clip: text; background-clip: text; color: transparent;",
+          em: "color: #333333; font-style: italic;"
+        },
+        table: {
+          container: "width: 100%; border-collapse: collapse; margin: 1.5em 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08);",
+          header: "padding: 12px 15px; text-align: left; font-weight: 600; color: #1d1d1f; border-bottom: 1.5px solid rgba(0,0,0,0.1); background: #fbfbfd;",
+          cell: "padding: 10px 15px; border-bottom: 1px solid rgba(0,0,0,0.05); color: #333333; background: rgba(0,0,0,0.02);"
+        },
+        hr: "height: 2px; border: none; margin: 2.5em 0; background-image: linear-gradient(to right, rgba(0, 122, 255, 0), #007aff, #5856d6, #ff2d55, rgba(255, 45, 85, 0));",
+        footnote: {
+          ref: "",
+          backref: ""
+        }
+      }
+    };
+  }
+});
+
+// src/templates/sport-style.json
+var require_sport_style = __commonJS({
+  "src/templates/sport-style.json"(exports, module2) {
+    module2.exports = {
+      id: "sport-style",
+      name: "\u8FD0\u52A8\u98CE",
+      styles: {
+        container: "",
+        title: {
+          h1: {
+            base: "padding: 0.6em 1.5em; margin: 2.2em 0 1.2em; color: #ffffff; font-size: 22px; font-weight: 700; text-align: center; letter-spacing: 0.12em; line-height: 1.4; background: linear-gradient(120deg, #00A968, #008A56, #00A968, #00A968); border-radius: 50px; box-shadow: 0 8px 20px rgba(0, 169, 104, 0.3); text-transform: uppercase; font-family: 'Titillium Web', sans-serif;",
+            content: "",
+            after: ""
+          },
+          h2: {
+            base: "padding: 0.4em 1em 0.5em 1em; margin: 1.6em 0 0.8em; font-size: 20px; font-weight: 600; text-align: left; letter-spacing: 0.06em; line-height: 1.4; color: #00A968; background: linear-gradient(to right, rgba(0, 169, 104, 0.05), rgba(56, 198, 244, 0.05)); border-left: 4px solid; border-image: linear-gradient(to bottom, #FF6600, #00A968, #38C6F4) 1; border-radius: 0 12px 12px 0; box-shadow: 0 3px 8px rgba(0, 169, 104, 0.12); text-transform: uppercase; font-family: 'Titillium Web', sans-serif;",
+            content: "",
+            after: ""
+          },
+          h3: {
+            base: "padding: 0.4em 1.2em; margin: 1.8em 0 1em; color: #00A968; font-size: 18px; font-weight: 600; text-align: left; letter-spacing: 0.08em; border-left: 4px solid; border-image: linear-gradient(to bottom, #FF6600, #00A968, #38C6F4) 1; background: linear-gradient(to right, rgba(255, 102, 0, 0.05), rgba(0, 169, 104, 0.05)); border-radius: 0 25px 25px 0; font-family: 'Titillium Web', sans-serif;",
+            content: "",
+            after: ""
+          },
+          base: {
+            base: "padding: 0.3em 1em; margin: 1.6em 0 0.8em; color: #00A968; font-size: 16px; font-weight: 600; text-align: left; letter-spacing: 0.06em; border-left: 3px solid; border-image: linear-gradient(to bottom, #FF6600, #00A968, #38C6F4) 1; background: rgba(56, 198, 244, 0.08); border-radius: 0 20px 20px 0; font-family: 'Titillium Web', sans-serif;",
+            content: "",
+            after: ""
+          }
+        },
+        paragraph: "margin: 1.3em 0; letter-spacing: 0.02em; color: #2c2c2c; text-align: justify; line-height: 1.8; font-size: 15px;",
+        list: {
+          container: "list-style: none; padding: 0; margin: 1.5em 0; color: #2c2c2c; font-size: 15px;",
+          item: "margin: 0.6em 0; padding: 0; line-height: 1.8; font-size: 15px;"
+        },
+        code: {
+          header: {
+            container: "",
+            dot: "",
+            colors: []
+          },
+          block: "font-size: 14px; overflow-x: auto; border-radius: 8px; padding: 1.2em; line-height: 1.6; margin: 1.5em 0; background: linear-gradient(to right, #FF6600, #00A968, #38C6F4) 0 0 / 100% 3px no-repeat, #ffffff 0 3px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);",
+          inline: "background: none; padding: 0; font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, Menlo, monospace; font-size: 14px; color: #2c2c2c; line-height: 1.6;"
+        },
+        quote: "font-style: normal; padding: 1.2em 1.5em; border-left: 5px solid; border-image: linear-gradient(to bottom, #FF6600, #00A968, #38C6F4) 1; color: #3c3c3e; background: #f8f8f8; border-radius: 0 8px 8px 0; margin: 1.8em 0;",
+        image: "max-width: 100%; border-radius: 16px; margin: 1.8em auto; display: block; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(255, 102, 0, 0.1); border: 2px solid transparent; background: linear-gradient(white, white) padding-box, linear-gradient(135deg, #FF6600, #00A968, #38C6F4) border-box;",
+        link: "background: linear-gradient(135deg, #00A968, #008A56, #00A968, #00A968); -webkit-background-clip: text; background-clip: text; color: transparent; text-decoration: none; border-bottom: 1px solid; border-image: linear-gradient(to right, rgba(255, 102, 0, 0), #FF6600, #00A968, #38C6F4, rgba(56, 198, 244, 0)) 1; transition: all 0.3s ease;",
+        emphasis: {
+          strong: "font-weight: 700; background: linear-gradient(135deg, #00A968, #008A56, #00A968, #00A968); -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: none;",
+          em: "color: #00A968; font-style: italic; font-weight: 500;"
+        },
+        table: {
+          container: "width: 100%; border-collapse: collapse; margin: 1.8em 0; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); border: 2px solid transparent; background: linear-gradient(white, white) padding-box, linear-gradient(135deg, #FF6600, #00A968, #38C6F4) border-box;",
+          header: "padding: 12px 16px; text-align: left; font-weight: 700; background: linear-gradient(135deg, rgba(255, 102, 0, 0.1), rgba(0, 169, 104, 0.1)); color: #00A968; border-bottom: 2px solid rgba(255, 102, 0, 0.2); font-family: 'Titillium Web', sans-serif; text-transform: uppercase; letter-spacing: 0.04em;",
+          cell: "padding: 10px 16px; border-bottom: 1px solid rgba(0, 0, 0, 0.08); color: #2c2c2c;"
+        },
+        hr: "height: 3px; border: none; margin: 3em 0; background-image: linear-gradient(to right, rgba(255, 102, 0, 0), #FF6600, #00A968, #38C6F4, rgba(56, 198, 244, 0));",
+        footnote: {
+          ref: "",
+          backref: ""
+        }
+      }
+    };
+  }
+});
+
+// src/templates/chinese-style.json
+var require_chinese_style = __commonJS({
+  "src/templates/chinese-style.json"(exports, module2) {
+    module2.exports = {
+      id: "chinese-style",
+      name: "\u4E2D\u56FD\u98CE",
+      styles: {
+        container: "",
+        title: {
+          h1: {
+            base: "display: block; padding: 0.8em 1.5em; margin: 1.5em auto 1.5em; color: #8b1e22; font-size: 22px; font-weight: bold; text-align: center; letter-spacing: 0.1em; line-height: 1.2; width: 80%; background-image: repeating-linear-gradient(45deg, rgba(139,30,34,0.03), rgba(139,30,34,0.03) 2px, transparent 2px, transparent 8px); border-top: 2px solid #8b1e22; border-bottom: 2px solid #8b1e22;",
+            content: "",
+            after: ""
+          },
+          h2: {
+            base: "margin: 2em 0 0.75em 0px; padding: 0px 0px 0.5em 12px; border-left: 4px solid #8b1e22; border-bottom: 1px dashed rgba(139,30,34,0.4); font-size: 20px; font-weight: bold; line-height: 1.2; color: #8b1e22; letter-spacing: 0.1em; font-family: 'KaiTi', 'STKaiti', 'SimSun', serif;",
+            content: "",
+            after: ""
+          },
+          h3: {
+            base: "padding: 0px 0px 0.4em 12px; font-size: 18px; line-height: 1.6; margin: 2em 0 0.75em; font-weight: 600; color: #8b1e22; text-shadow: 1px 1px 1px rgba(255,255,255,0.7); border-left: 4px solid #8b1e22; border-bottom: 1px dashed rgba(139,30,34,0.4);",
+            content: "",
+            after: ""
+          },
+          base: {
+            base: "margin: 1.5em 0 0.8em; color: #8b1e22; font-size: 16px; font-weight: bold; padding: 0.3em 0 0.3em 12px; letter-spacing: 0.1em; font-family: 'KaiTi', 'STKaiti', serif; border-left: 4px solid #8b1e22; border-bottom: 1px dashed rgba(139,30,34,0.3);",
+            content: "",
+            after: ""
+          }
+        },
+        paragraph: "margin: 1.2em 0; letter-spacing: 0.1em; color: #333; text-align: justify; line-height: 2; font-size: 15px;",
+        list: {
+          container: "list-style: none; padding: 0; margin: 1em 0; font-size: 15px;",
+          item: "margin: 0.5em 0; padding: 0; line-height: 1.8; font-size: 15px;"
+        },
+        code: {
+          header: {
+            container: "",
+            dot: "",
+            colors: []
+          },
+          block: "background: #faf8f5; border-radius: 8px; padding: 1.2em; margin: 1.5em 0; overflow-x: auto; font-size: 14px; line-height: 1.5; font-family: 'Source Code Pro', monospace; border-top: 3px solid #8b1e22; box-shadow: 0 2px 8px rgba(139, 30, 34, 0.1);",
+          inline: "background: none; padding: 0; font-family: 'Source Code Pro', monospace; font-size: 14px; color: #333; line-height: 1.5;"
+        },
+        quote: "font-style: normal; padding: 0.5em 1em; border-left: 4px solid #891e22; color: #666; background: rgba(139, 30, 34, 0.03); margin: 1.2em 0;",
+        image: "max-width: 100%; margin: 1.5em auto; display: block; border: 8px solid white; box-shadow: 0 4px 10px rgba(0,0,0,0.1);",
+        link: "color: #8b1e22; text-decoration: none; border-bottom: 1px solid rgba(139,30,34,0.3);",
+        emphasis: {
+          strong: "color: #8b1e22; font-weight: bold;",
+          em: "color: #555; font-style: italic; font-family: 'KaiTi', 'STKaiti', serif;"
+        },
+        table: {
+          container: "width: 100%; border-collapse: collapse; margin: 1.5em 0; border: 1px solid rgba(139,30,34,0.3);",
+          header: "background: linear-gradient(to bottom, rgba(139,30,34,0.15), rgba(139,30,34,0.05)); padding: 0.8em; text-align: left; font-weight: bold; border-bottom: 2px solid rgba(139,30,34,0.5);",
+          cell: "padding: 0.8em; border-bottom: 1px solid rgba(139,30,34,0.1);"
+        },
+        hr: "height: 1px; border: none; margin: 2.5em auto; background: linear-gradient(to right, rgba(139,30,34,0), rgba(139,30,34,0.5), rgba(139,30,34,0)); width: 80%; text-align: center; color: #8b1e22; font-size: 1.2em;",
+        footnote: {
+          ref: "",
+          backref: ""
+        }
+      }
+    };
+  }
+});
+
+// src/templates/cyberpunk.json
+var require_cyberpunk = __commonJS({
+  "src/templates/cyberpunk.json"(exports, module2) {
+    module2.exports = {
+      id: "cyberpunk",
+      name: "\u8D5B\u535A\u670B\u514B",
+      styles: {
+        container: "",
+        title: {
+          h1: {
+            base: "padding: 0.8em 1.5em; margin: 1.4em 0 1em; font-size: 22px; font-weight: 700; text-align: center; letter-spacing: 0.1em; line-height: 1.2; background: linear-gradient(135deg, #f472b6 0%, #8b5cf6 50%, #60a5fa 100%); color: #ffffff; border-radius: 16px; box-shadow: 0 6px 20px rgba(244, 114, 182, 0.25), 0 2px 8px rgba(139, 92, 246, 0.15); backdrop-filter: blur(10px); position: relative; overflow: hidden;",
+            content: "",
+            after: ""
+          },
+          h2: {
+            base: "margin: 2em 8px 0.75em 0px; padding: 0.5em 0.5em 0.5em 15px; position: relative; border-bottom: 1px dashed #8b5cf6; font-size: 20px; font-weight: 600; line-height: 1.2; color: #1d1d1f; background: radial-gradient(80.23% 80.23% at 50% 88.37%, rgba(174, 78, 245, 0.22) 0%, rgba(174, 78, 245, 0.22) 0.01%, rgba(174, 78, 245, 0) 100%); border-radius: 4px; box-shadow: 0 0 15px rgba(174, 78, 245, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 3px 0 0 0 #f472b6, inset 2px 0 0 0 #8b5cf6, inset 1px 0 0 0 #60a5fa;",
+            content: "",
+            after: ""
+          },
+          h3: {
+            base: "margin: 2em 8px 0.75em 0px; padding: 0.4em 0.4em 0.4em 13px; position: relative; border-bottom: 1px dashed #60a5fa; font-size: 18px; font-weight: 600; line-height: 1.2; color: #1d1d1f; background: radial-gradient(80.23% 80.23% at 50% 88.37%, rgba(139, 92, 246, 0.18) 0%, rgba(139, 92, 246, 0.18) 0.01%, rgba(139, 92, 246, 0) 100%); border-radius: 3px; box-shadow: 0 0 12px rgba(139, 92, 246, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.08), inset 2.5px 0 0 0 #8b5cf6, inset 1.5px 0 0 0 #60a5fa;",
+            content: "",
+            after: ""
+          },
+          base: {
+            base: "margin: 1.5em 8px 0.5em 0px; padding: 0.3em 0.3em 0.3em 11px; position: relative; font-size: 16px; font-weight: 600; line-height: 1.2; color: #1d1d1f; background: radial-gradient(80.23% 80.23% at 50% 88.37%, rgba(168, 85, 247, 0.15) 0%, rgba(168, 85, 247, 0.15) 0.01%, rgba(168, 85, 247, 0) 100%); border-radius: 2px; box-shadow: 0 0 10px rgba(168, 85, 247, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.06), inset 2px 0 0 0 #a855f7, inset 1px 0 0 0 #f472b6;",
+            content: "",
+            after: ""
+          }
+        },
+        paragraph: "margin: 1.2em 0; letter-spacing: 0.1em; color: #333333; text-align: justify; line-height: 1.8; font-size: 15px;",
+        list: {
+          container: "list-style: none; padding: 0; margin: 1.2em 0; color: #333333; font-size: 15px;",
+          item: "margin: 0.4em 0; padding: 0; line-height: 1.7; font-size: 15px;"
+        },
+        code: {
+          header: {
+            container: "",
+            dot: "",
+            colors: []
+          },
+          block: "font-size: 14px; overflow-x: auto; border-radius: 8px; padding: 1.2em; line-height: 1.5; margin: 1.5em 0; background: linear-gradient(to right, #f472b6, #8b5cf6, #60a5fa) 0 0 / 100% 3px no-repeat, #fbfbfd 0 3px; box-shadow: 0 4px 15px rgba(168, 85, 247, 0.1);",
+          inline: "background: none; padding: 0; font-family: 'SFMono-Regular', Consolas, Menlo, monospace; font-size: 14px; color: #1d1d1f; line-height: 1.5;"
+        },
+        quote: "font-style: normal; padding: 1em 1.2em; border-left: 4px solid transparent; border-image: linear-gradient(to bottom, #f472b6, #8b5cf6, #60a5fa) 1; color: #333333; background: linear-gradient(135deg, rgba(244, 114, 182, 0.05), rgba(168, 85, 247, 0.02)); border-radius: 8px; margin: 1.5em 0;",
+        image: "max-width: 100%; border-radius: 8px; margin: 1.5em auto; display: block; box-shadow: 0 8px 25px rgba(168, 85, 247, 0.12);",
+        link: "color: #8b5cf6; text-decoration: none; border-bottom: 1px solid transparent; border-image: linear-gradient(to right, rgba(139, 92, 246, 0), #8b5cf6, rgba(139, 92, 246, 0)) 1; transition: all 0.3s ease;",
+        emphasis: {
+          strong: "font-weight: 600; background: linear-gradient(81.02deg, #f472b6 -23.47%, #8b5cf6 45.52%, #60a5fa 114.8%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;",
+          em: "background: linear-gradient(135deg, #f472b6 0%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-style: italic;"
+        },
+        table: {
+          container: "width: 100%; border-collapse: collapse; margin: 1.5em 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(168, 85, 247, 0.08);",
+          header: "padding: 12px 15px; text-align: left; font-weight: 600; color: #1d1d1f; border-bottom: 1.5px solid rgba(168, 85, 247, 0.1); background: linear-gradient(135deg, rgba(244, 114, 182, 0.03), rgba(168, 85, 247, 0.02));",
+          cell: "padding: 10px 15px; border-bottom: 1px solid rgba(168, 85, 247, 0.05); color: #333333;"
+        },
+        hr: "height: 2px; border: none; margin: 2.5em 0; background: linear-gradient(to right, rgba(244, 114, 182, 0), #f472b6, #8b5cf6, #60a5fa, rgba(96, 165, 250, 0));",
+        footnote: {
+          ref: "",
+          backref: ""
+        }
+      }
+    };
+  }
+});
+
 // src/templates/index.ts
 var templates_exports = {};
 __export(templates_exports, {
   templates: () => templates
 });
-var defaultTemplate, minimalTemplate, scarletTemplate, orangeTemplate, elegantTemplate, darkTemplate, academicTemplate, yebanTemplate, yebanOrangeTemplate, darkgreenTemplate, brownTemplate, blueLightTemplate, orangeVitalityTemplate, modernDarkTemplate, magazineModernTemplate, literaryJournalTemplate, cyberNeonTemplate, forestGreenTemplate, scheme1Template, wechatDefaultTemplate, latepostDepthTemplate, wechatFtTemplate, wechatAnthropicTemplate, wechatTechTemplate, wechatElegantTemplate, wechatDeepreadTemplate, wechatNytTemplate, wechatJonyiveTemplate, wechatMediumTemplate, wechatAppleTemplate, kenyaEmptinessTemplate, hischeEditorialTemplate, andoConcreteTemplate, gaudiOrganicTemplate, templates;
+var defaultTemplate, minimalTemplate, scarletTemplate, orangeTemplate, elegantTemplate, darkTemplate, academicTemplate, yebanTemplate, yebanOrangeTemplate, darkgreenTemplate, brownTemplate, blueLightTemplate, orangeVitalityTemplate, modernDarkTemplate, magazineModernTemplate, literaryJournalTemplate, cyberNeonTemplate, forestGreenTemplate, scheme1Template, wechatDefaultTemplate, latepostDepthTemplate, wechatFtTemplate, wechatAnthropicTemplate, wechatTechTemplate, wechatElegantTemplate, wechatDeepreadTemplate, wechatNytTemplate, wechatJonyiveTemplate, wechatMediumTemplate, wechatAppleTemplate, kenyaEmptinessTemplate, hischeEditorialTemplate, andoConcreteTemplate, gaudiOrganicTemplate, byteStyleTemplate, appleStyleTemplate, sportStyleTemplate, chineseStyleTemplate, cyberpunkTemplate, templates;
 var init_templates = __esm({
   "src/templates/index.ts"() {
     defaultTemplate = require_default();
@@ -2520,6 +2850,11 @@ var init_templates = __esm({
     hischeEditorialTemplate = require_hische_editorial();
     andoConcreteTemplate = require_ando_concrete();
     gaudiOrganicTemplate = require_gaudi_organic();
+    byteStyleTemplate = require_byte_style();
+    appleStyleTemplate = require_apple_style();
+    sportStyleTemplate = require_sport_style();
+    chineseStyleTemplate = require_chinese_style();
+    cyberpunkTemplate = require_cyberpunk();
     templates = {
       default: defaultTemplate,
       minimal: minimalTemplate,
@@ -2554,7 +2889,13 @@ var init_templates = __esm({
       "kenya-emptiness": kenyaEmptinessTemplate,
       "hische-editorial": hischeEditorialTemplate,
       "ando-concrete": andoConcreteTemplate,
-      "gaudi-organic": gaudiOrganicTemplate
+      "gaudi-organic": gaudiOrganicTemplate,
+      // 来自 zhuti 文件夹的 5 种主题
+      "byte-style": byteStyleTemplate,
+      "apple-style": appleStyleTemplate,
+      "sport-style": sportStyleTemplate,
+      "chinese-style": chineseStyleTemplate,
+      "cyberpunk": cyberpunkTemplate
     };
   }
 });
