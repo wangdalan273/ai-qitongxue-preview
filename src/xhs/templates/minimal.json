@@ -1,0 +1,42 @@
+{
+    "id": "xhs-minimal",
+    "name": "极简白",
+    "description": "干净简约，适合干货分享",
+    "styles": {
+        "container": "background: #ffffff; padding: 24px; border: 1px solid #e5e5e5; border-radius: 8px;",
+        "hashtag": {
+            "container": "margin-top: 28px; padding-top: 20px; border-top: 2px solid #f5f5f5;",
+            "tag": "display: inline-block; margin-right: 16px; margin-bottom: 10px; color: #666; font-size: 14px; font-weight: 500;",
+            "icon": "color: #ff2442; margin-right: 2px;",
+            "label": "font-size: 12px; color: #999; font-weight: 500; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;"
+        },
+        "emoji": {
+            "size": "font-size: 1.1em; margin-right: 4px;",
+            "spacing": "4px"
+        },
+        "title": {
+            "emojiPrefix": "margin-right: 4px;",
+            "shortLength": "color: #1a1a1a; font-weight: 600;"
+        },
+        "paragraph": "line-height: 1.8; margin-top: 16px; font-size: 15px; color: #333;",
+        "code": {
+            "block": "background: #f8f8f8; border: 1px solid #e8e8e8; border-radius: 6px; padding: 14px; margin: 16px 0; overflow-x: auto; color: #333;",
+            "inline": "background: #f5f5f5; color: #555; padding: 2px 6px; border-radius: 4px; font-size: 14px; border: 1px solid #e8e8e8;"
+        },
+        "list": {
+            "container": "padding-left: 20px; margin-top: 12px;",
+            "item": "line-height: 1.8; margin-top: 6px; color: #333;"
+        },
+        "quote": "border-left: 3px solid #ddd; background: #f9f9f9; padding: 12px 16px; margin: 16px 0; color: #666;",
+        "image": "width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 6px; margin: 16px 0; border: 1px solid #eee;",
+        "link": "color: #333; text-decoration: underline; text-decoration-color: #ddd;",
+        "emphasis": {
+            "strong": "font-weight: 600; color: #1a1a1a;",
+            "em": "font-style: italic; color: #555;"
+        }
+    },
+    "config": {
+        "maxWords": 1000,
+        "defaultImageRatio": "1:1"
+    }
+}

@@ -10,6 +10,7 @@
 /* 现有样式文件 */
 @import url('./view/layout.css');
 @import url('./view/preview.css');
+@import url('./view/xhs-preview.css');
 @import url('./view/export.css');
 @import url('./settings/settings.css');
 @import url('./settings/split-layout.css');

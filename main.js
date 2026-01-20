@@ -2945,13 +2945,176 @@ var init_backgrounds = __esm({
   }
 });
 
+// src/xhs/templates/cute.json
+var require_cute = __commonJS({
+  "src/xhs/templates/cute.json"(exports, module2) {
+    module2.exports = {
+      id: "xhs-cute",
+      name: "\u53EF\u7231\u7C89",
+      description: "\u6E29\u67D4\u7C89\u8272\u7CFB\uFF0C\u9002\u5408\u751F\u6D3B\u5206\u4EAB",
+      styles: {
+        container: "background: linear-gradient(135deg, #fff5f5 0%, #ffe4e6 100%); padding: 20px; border-radius: 16px; box-shadow: 0 2px 12px rgba(255, 36, 66, 0.08);",
+        hashtag: {
+          container: "display: flex; flex-direction: column; gap: 12px; margin-top: 24px; padding: 16px; background: rgba(255, 36, 66, 0.06); border-radius: 12px; border: 1px solid rgba(255, 36, 66, 0.1);",
+          tag: "display: inline-flex; align-items: center; gap: 4px; padding: 8px 14px; background: linear-gradient(135deg, #ff2442 0%, #ff6b6b 100%); color: white; border-radius: 20px; font-size: 14px; font-weight: 500; box-shadow: 0 2px 8px rgba(255, 36, 66, 0.2); transition: transform 0.2s;",
+          icon: "font-size: 16px; opacity: 0.9;",
+          label: "font-size: 13px; color: #ff2442; font-weight: 600; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"
+        },
+        emoji: {
+          size: "font-size: 1.3em; margin-right: 6px;",
+          spacing: "6px"
+        },
+        title: {
+          emojiPrefix: "font-size: 1.2em; margin-right: 6px;",
+          shortLength: "font-size: 1.1em; color: #ff2442; font-weight: 600;"
+        },
+        paragraph: "line-height: 1.9; margin-top: 12px; font-size: 15px; color: #4a4a4a;",
+        code: {
+          block: "background: #fff5f5; border: 1px solid #ffe4e6; border-radius: 12px; padding: 16px; margin: 16px 0; overflow-x: auto; color: #4a4a4a;",
+          inline: "background: #fff5f5; color: #ff2442; padding: 3px 8px; border-radius: 6px; font-size: 14px; border: 1px solid #ffe4e6;"
+        },
+        list: {
+          container: "padding-left: 24px; margin-top: 12px;",
+          item: "line-height: 1.8; margin-top: 8px; color: #4a4a4a;"
+        },
+        quote: "border-left: 4px solid #ff2442; background: linear-gradient(90deg, rgba(255, 36, 66, 0.05) 0%, transparent 100%); padding: 12px 16px; margin: 16px 0; border-radius: 0 12px 12px 0; color: #666; font-style: italic;",
+        image: "width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 12px; margin: 16px 0; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);",
+        link: "color: #ff2442; text-decoration: none; border-bottom: 1px dashed #ff2442; transition: opacity 0.2s;",
+        emphasis: {
+          strong: "font-weight: 600; color: #ff2442;",
+          em: "font-style: italic; color: #ff6b6b;"
+        }
+      },
+      config: {
+        maxWords: 1e3,
+        defaultImageRatio: "4:3"
+      }
+    };
+  }
+});
+
+// src/xhs/templates/minimal.json
+var require_minimal2 = __commonJS({
+  "src/xhs/templates/minimal.json"(exports, module2) {
+    module2.exports = {
+      id: "xhs-minimal",
+      name: "\u6781\u7B80\u767D",
+      description: "\u5E72\u51C0\u7B80\u7EA6\uFF0C\u9002\u5408\u5E72\u8D27\u5206\u4EAB",
+      styles: {
+        container: "background: #ffffff; padding: 24px; border: 1px solid #e5e5e5; border-radius: 8px;",
+        hashtag: {
+          container: "margin-top: 28px; padding-top: 20px; border-top: 2px solid #f5f5f5;",
+          tag: "display: inline-block; margin-right: 16px; margin-bottom: 10px; color: #666; font-size: 14px; font-weight: 500;",
+          icon: "color: #ff2442; margin-right: 2px;",
+          label: "font-size: 12px; color: #999; font-weight: 500; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;"
+        },
+        emoji: {
+          size: "font-size: 1.1em; margin-right: 4px;",
+          spacing: "4px"
+        },
+        title: {
+          emojiPrefix: "margin-right: 4px;",
+          shortLength: "color: #1a1a1a; font-weight: 600;"
+        },
+        paragraph: "line-height: 1.8; margin-top: 16px; font-size: 15px; color: #333;",
+        code: {
+          block: "background: #f8f8f8; border: 1px solid #e8e8e8; border-radius: 6px; padding: 14px; margin: 16px 0; overflow-x: auto; color: #333;",
+          inline: "background: #f5f5f5; color: #555; padding: 2px 6px; border-radius: 4px; font-size: 14px; border: 1px solid #e8e8e8;"
+        },
+        list: {
+          container: "padding-left: 20px; margin-top: 12px;",
+          item: "line-height: 1.8; margin-top: 6px; color: #333;"
+        },
+        quote: "border-left: 3px solid #ddd; background: #f9f9f9; padding: 12px 16px; margin: 16px 0; color: #666;",
+        image: "width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 6px; margin: 16px 0; border: 1px solid #eee;",
+        link: "color: #333; text-decoration: underline; text-decoration-color: #ddd;",
+        emphasis: {
+          strong: "font-weight: 600; color: #1a1a1a;",
+          em: "font-style: italic; color: #555;"
+        }
+      },
+      config: {
+        maxWords: 1e3,
+        defaultImageRatio: "1:1"
+      }
+    };
+  }
+});
+
+// src/xhs/templates/vibrant.json
+var require_vibrant = __commonJS({
+  "src/xhs/templates/vibrant.json"(exports, module2) {
+    module2.exports = {
+      id: "xhs-vibrant",
+      name: "\u6D3B\u529B\u6A59",
+      description: "\u70ED\u60C5\u6D3B\u529B\uFF0C\u9002\u5408\u8FD0\u52A8\u7F8E\u98DF",
+      styles: {
+        container: "background: linear-gradient(135deg, #fff8f0 0%, #ffedd5 100%); padding: 20px; border-radius: 16px; box-shadow: 0 2px 12px rgba(249, 115, 22, 0.1);",
+        hashtag: {
+          container: "display: flex; flex-direction: column; gap: 12px; margin-top: 24px; padding: 16px; background: rgba(249, 115, 22, 0.08); border-radius: 12px; border: 1px solid rgba(249, 115, 22, 0.15);",
+          tag: "display: inline-flex; align-items: center; gap: 4px; padding: 8px 14px; background: linear-gradient(135deg, #f97316 0%, #fb923c 100%); color: white; border-radius: 20px; font-size: 14px; font-weight: 500; box-shadow: 0 2px 8px rgba(249, 115, 22, 0.25);",
+          icon: "font-size: 16px; opacity: 0.9;",
+          label: "font-size: 13px; color: #f97316; font-weight: 600; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"
+        },
+        emoji: {
+          size: "font-size: 1.3em; margin-right: 6px;",
+          spacing: "6px"
+        },
+        title: {
+          emojiPrefix: "font-size: 1.2em; margin-right: 6px;",
+          shortLength: "font-size: 1.1em; color: #f97316; font-weight: 600;"
+        },
+        paragraph: "line-height: 1.9; margin-top: 12px; font-size: 15px; color: #4a4a4a;",
+        code: {
+          block: "background: #fff8f0; border: 1px solid #ffedd5; border-radius: 12px; padding: 16px; margin: 16px 0; overflow-x: auto; color: #4a4a4a;",
+          inline: "background: #fff8f0; color: #f97316; padding: 3px 8px; border-radius: 6px; font-size: 14px; border: 1px solid #ffedd5;"
+        },
+        list: {
+          container: "padding-left: 24px; margin-top: 12px;",
+          item: "line-height: 1.8; margin-top: 8px; color: #4a4a4a;"
+        },
+        quote: "border-left: 4px solid #f97316; background: linear-gradient(90deg, rgba(249, 115, 22, 0.08) 0%, transparent 100%); padding: 12px 16px; margin: 16px 0; border-radius: 0 12px 12px 0; color: #666; font-style: italic;",
+        image: "width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 12px; margin: 16px 0; box-shadow: 0 4px 12px rgba(249, 115, 22, 0.15);",
+        link: "color: #f97316; text-decoration: none; border-bottom: 1px dashed #f97316; transition: opacity 0.2s;",
+        emphasis: {
+          strong: "font-weight: 600; color: #f97316;",
+          em: "font-style: italic; color: #fb923c;"
+        }
+      },
+      config: {
+        maxWords: 1e3,
+        defaultImageRatio: "4:3"
+      }
+    };
+  }
+});
+
+// src/xhs/templates/index.ts
+var templates_exports2 = {};
+__export(templates_exports2, {
+  templates: () => templates2
+});
+var cuteTemplate, minimalTemplate2, vibrantTemplate, templates2;
+var init_templates2 = __esm({
+  "src/xhs/templates/index.ts"() {
+    cuteTemplate = require_cute();
+    minimalTemplate2 = require_minimal2();
+    vibrantTemplate = require_vibrant();
+    templates2 = {
+      "xhs-cute": cuteTemplate,
+      "xhs-minimal": minimalTemplate2,
+      "xhs-vibrant": vibrantTemplate
+    };
+  }
+});
+
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
   default: () => MPPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian11 = require("obsidian");
+var import_obsidian14 = require("obsidian");
 
 // src/view.ts
 var import_obsidian4 = require("obsidian");
@@ -3940,8 +4103,8 @@ var MPView = class extends import_obsidian4.ItemView {
   }
   // 获取模板选项
   async getTemplateOptions() {
-    const templates2 = this.settingsManager.getVisibleTemplates();
-    return templates2.length > 0 ? templates2.map((t) => ({ value: t.id, label: t.name })) : [{ value: "default", label: "\u9ED8\u8BA4\u6A21\u677F" }];
+    const templates3 = this.settingsManager.getVisibleTemplates();
+    return templates3.length > 0 ? templates3.map((t) => ({ value: t.id, label: t.name })) : [{ value: "default", label: "\u9ED8\u8BA4\u6A21\u677F" }];
   }
   toggleSyncScroll() {
     this.syncScrollEnabled = !this.syncScrollEnabled;
@@ -4212,7 +4375,10 @@ var DEFAULT_SETTINGS = {
     { value: 'SimHei, "\u9ED1\u4F53", sans-serif', label: "\u9ED1\u4F53", isPreset: true },
     { value: 'KaiTi, "\u6977\u4F53", serif', label: "\u6977\u4F53", isPreset: true },
     { value: '"Microsoft YaHei", "\u5FAE\u8F6F\u96C5\u9ED1", sans-serif', label: "\u96C5\u9ED1", isPreset: true }
-  ]
+  ],
+  // 小红书相关设置
+  xhsTemplateId: "xhs-cute",
+  xhsFontSize: 15
 };
 var SettingsManager = class {
   constructor(plugin) {
@@ -4224,8 +4390,8 @@ var SettingsManager = class {
     if (!savedData) {
       savedData = {};
     }
-    const { templates: templates2 } = await Promise.resolve().then(() => (init_templates(), templates_exports));
-    const presetTemplates = Object.values(templates2).map((template) => ({
+    const { templates: templates3 } = await Promise.resolve().then(() => (init_templates(), templates_exports));
+    const presetTemplates = Object.values(templates3).map((template) => ({
       ...template,
       isPreset: true,
       isVisible: true
@@ -4791,9 +4957,9 @@ var CreateTemplateModal = class extends import_obsidian6.Modal {
     });
   }
   getTemplateOptions() {
-    const templates2 = this.plugin.settingsManager.getAllTemplates();
+    const templates3 = this.plugin.settingsManager.getAllTemplates();
     const options = {};
-    templates2.forEach((template) => {
+    templates3.forEach((template) => {
       options[template.id] = template.name;
     });
     return options;
@@ -6784,8 +6950,8 @@ var MPSettingTab = class extends import_obsidian10.PluginSettingTab {
     label.createEl("p", { text: "\u6587\u7AE0\u9ED8\u8BA4\u4F7F\u7528\u7684\u6A21\u677F\u6837\u5F0F" });
     const control = settingItem.createDiv("mp-setting-control");
     const select = control.createEl("select", { cls: "mp-setting-select" });
-    const templates2 = this.plugin.settingsManager.getVisibleTemplates();
-    templates2.forEach((template) => {
+    const templates3 = this.plugin.settingsManager.getVisibleTemplates();
+    templates3.forEach((template) => {
       const option = select.createEl("option", {
         value: template.id,
         text: template.name
@@ -7172,8 +7338,1046 @@ var MPSettingTab = class extends import_obsidian10.PluginSettingTab {
   }
 };
 
+// src/xhs/xhsView.ts
+var import_obsidian13 = require("obsidian");
+
+// src/xhs/xhsConverter.ts
+var XhsConverter = class {
+  static initialize(app) {
+    this.app = app;
+  }
+  static formatContent(element) {
+    const container = document.createElement("div");
+    container.className = "xhs-content-container";
+    while (element.firstChild) {
+      container.appendChild(element.firstChild);
+    }
+    element.appendChild(container);
+    this.processTitles(container);
+    this.processHashtags(container);
+    this.processImages(container);
+  }
+  static processTitles(container) {
+    container.querySelectorAll("h1").forEach((h1) => {
+      var _a;
+      if (!h1.querySelector(".emoji-prefix")) {
+        const textContent = ((_a = h1.textContent) == null ? void 0 : _a.trim()) || "";
+        const hasEmoji = /^[\u{1F300}-\u{1F9FF}]/u.test(textContent);
+        if (!hasEmoji) {
+          const prefix = document.createElement("span");
+          prefix.className = "emoji-prefix";
+          prefix.textContent = "\u2728";
+          h1.prepend(prefix);
+        }
+      }
+    });
+  }
+  static processHashtags(container) {
+    var _a;
+    const hashtags = /* @__PURE__ */ new Set();
+    const walker = document.createTreeWalker(
+      container,
+      NodeFilter.SHOW_TEXT,
+      {
+        acceptNode: (node2) => {
+          const parent = node2.parentElement;
+          if (!parent)
+            return NodeFilter.FILTER_REJECT;
+          if (parent.tagName === "CODE" || parent.tagName === "PRE" || parent.closest(".xhs-hashtag-section")) {
+            return NodeFilter.FILTER_REJECT;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      }
+    );
+    const textNodesToReplace = [];
+    let node;
+    while (node = walker.nextNode()) {
+      const textNode = node;
+      const text = textNode.textContent;
+      if (!text)
+        continue;
+      const replacements = [];
+      let lastIndex = 0;
+      let match;
+      this.hashtagPattern.lastIndex = 0;
+      while ((match = this.hashtagPattern.exec(text)) !== null) {
+        const [fullMatch, tag] = match;
+        const tagText = fullMatch;
+        if (match.index > lastIndex) {
+          replacements.push({ text: text.slice(lastIndex, match.index), element: null });
+        }
+        const span = document.createElement("span");
+        span.className = "xhs-hashtag";
+        span.textContent = tagText;
+        replacements.push({ text: tagText, element: span });
+        hashtags.add(tagText);
+        lastIndex = match.index + fullMatch.length;
+      }
+      if (lastIndex < text.length) {
+        replacements.push({ text: text.slice(lastIndex), element: null });
+      }
+      if (replacements.length > 0) {
+        textNodesToReplace.push({ node: textNode, replacements });
+      }
+    }
+    for (const { node: node2, replacements } of textNodesToReplace) {
+      const fragment = document.createDocumentFragment();
+      for (const replacement of replacements) {
+        if (replacement.element) {
+          fragment.appendChild(replacement.element);
+        } else if (replacement.text) {
+          fragment.appendChild(document.createTextNode(replacement.text));
+        }
+      }
+      (_a = node2.parentNode) == null ? void 0 : _a.replaceChild(fragment, node2);
+    }
+    if (hashtags.size > 0) {
+      const hashtagSection = document.createElement("div");
+      hashtagSection.className = "xhs-hashtag-section";
+      const label = document.createElement("div");
+      label.className = "xhs-hashtag-label";
+      label.textContent = "\u8BDD\u9898\u6807\u7B7E";
+      hashtagSection.appendChild(label);
+      const tagsContainer = document.createElement("div");
+      tagsContainer.className = "hashtag-tags-container";
+      for (const tag of hashtags) {
+        const tagEl = document.createElement("div");
+        tagEl.className = "xhs-hashtag-tag";
+        tagEl.innerHTML = `<span class="hashtag-icon">#</span><span class="hashtag-text">${tag.slice(1)}</span>`;
+        tagsContainer.appendChild(tagEl);
+      }
+      hashtagSection.appendChild(tagsContainer);
+      container.appendChild(hashtagSection);
+    }
+  }
+  static processImages(container) {
+    container.querySelectorAll("span.internal-embed[alt][src]").forEach(async (el) => {
+      var _a;
+      const originalSpan = el;
+      const src = originalSpan.getAttribute("src");
+      const alt = originalSpan.getAttribute("alt");
+      if (!src)
+        return;
+      try {
+        const linktext = src.split("|")[0];
+        const file = this.app.metadataCache.getFirstLinkpathDest(linktext, "");
+        if (file) {
+          const absolutePath = this.app.vault.adapter.getResourcePath(file.path);
+          const newImg = document.createElement("img");
+          newImg.src = absolutePath;
+          newImg.alt = alt || "";
+          newImg.className = "xhs-image";
+          (_a = originalSpan.parentNode) == null ? void 0 : _a.replaceChild(newImg, originalSpan);
+        }
+      } catch (error) {
+        console.error("\u5C0F\u7EA2\u4E66\u56FE\u7247\u5904\u7406\u5931\u8D25:", error);
+      }
+    });
+    container.querySelectorAll("img").forEach((img) => {
+      if (!img.classList.contains("xhs-image")) {
+        img.classList.add("xhs-image");
+      }
+    });
+  }
+  static getWordCount(element) {
+    var _a;
+    const clone = element.cloneNode(true);
+    clone.querySelectorAll(".xhs-hashtag-section").forEach((el) => el.remove());
+    return ((_a = clone.textContent) == null ? void 0 : _a.trim().length) || 0;
+  }
+};
+XhsConverter.hashtagPattern = /#([^\s#]+)/g;
+
+// src/xhs/xhsExportManager.ts
+var import_obsidian11 = require("obsidian");
+var XhsExportManager = class {
+  /**
+   * 将 HTML 元素导出为图片
+   */
+  static async exportToImage(element, options = {
+    format: "png",
+    quality: 0.95,
+    scale: 2
+  }) {
+    try {
+      const container = document.createElement("div");
+      container.style.position = "absolute";
+      container.style.top = "0";
+      container.style.left = "0";
+      container.style.background = "white";
+      container.style.padding = "20px";
+      container.style.width = (options.width || 500) + "px";
+      container.style.zIndex = "-9999";
+      const clone = element.cloneNode(true);
+      this.simplifyStyles(clone);
+      container.appendChild(clone);
+      document.body.appendChild(container);
+      await new Promise((resolve) => setTimeout(resolve, 100));
+      if (window.html2canvas) {
+        await this.exportWithHtml2Canvas(container, options);
+      } else {
+        await this.exportWithCanvasAPI(container, options);
+      }
+      document.body.removeChild(container);
+      new import_obsidian11.Notice("\u56FE\u7247\u5BFC\u51FA\u6210\u529F");
+    } catch (error) {
+      console.error("\u5BFC\u51FA\u5931\u8D25:", error);
+      throw new Error("\u5BFC\u51FA\u5931\u8D25: " + error.message);
+    }
+  }
+  /**
+   * 简化样式，移除复杂的 CSS
+   */
+  static simplifyStyles(element) {
+    const allElements = element.querySelectorAll("*");
+    allElements.forEach((el) => {
+      const computed = window.getComputedStyle(el);
+      const display = computed.display;
+      const flexDirection = computed.flexDirection;
+      el.style.cssText = "";
+      if (display !== "inline") {
+        el.style.display = display;
+      }
+      if (display === "flex") {
+        el.style.flexDirection = flexDirection;
+        el.style.gap = "8px";
+      }
+    });
+    element.style.fontFamily = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+    element.style.lineHeight = "1.6";
+    element.style.color = "#333";
+  }
+  /**
+   * 使用 html2canvas 导出
+   */
+  static async exportWithHtml2Canvas(container, options) {
+    const html2canvas = window.html2canvas;
+    const canvas = await html2canvas(container, {
+      scale: options.scale,
+      useCORS: true,
+      allowTaint: true,
+      backgroundColor: "#ffffff"
+    });
+    await this.downloadCanvas(canvas, options);
+  }
+  /**
+   * 使用原生 Canvas API 导出（备用方法）
+   */
+  static async exportWithCanvasAPI(container, options) {
+    const rect = container.getBoundingClientRect();
+    const scale = options.scale || 2;
+    const canvas = document.createElement("canvas");
+    canvas.width = rect.width * scale;
+    canvas.height = rect.height * scale;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) {
+      throw new Error("\u65E0\u6CD5\u521B\u5EFA Canvas \u4E0A\u4E0B\u6587");
+    }
+    ctx.scale(scale, scale);
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(0, 0, rect.width, rect.height);
+    await this.drawElement(ctx, container, 0, 0);
+    await this.downloadCanvas(canvas, options);
+  }
+  /**
+   * 递归绘制元素到 Canvas
+   */
+  static async drawElement(ctx, element, x, y) {
+    var _a, _b, _c;
+    let currentY = y;
+    const computed = window.getComputedStyle(element);
+    const padding = 10;
+    if (element.nodeType === Node.TEXT_NODE) {
+      const text = (_a = element.textContent) == null ? void 0 : _a.trim();
+      if (text) {
+        ctx.fillStyle = "#333";
+        ctx.font = '15px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+        ctx.fillText(text, x + padding, currentY + 20);
+        currentY += 25;
+      }
+      return currentY;
+    }
+    for (const child of Array.from(element.children)) {
+      if (child instanceof HTMLElement) {
+        const tagName = child.tagName.toLowerCase();
+        if (tagName === "h1" || tagName === "h2" || tagName === "h3") {
+          ctx.fillStyle = "#ff2442";
+          ctx.font = 'bold 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+          const text = ((_b = child.textContent) == null ? void 0 : _b.trim()) || "";
+          ctx.fillText(text, x + padding, currentY + 30);
+          currentY += 45;
+        } else if (tagName === "p") {
+          ctx.fillStyle = "#333";
+          ctx.font = '15px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+          const text = ((_c = child.textContent) == null ? void 0 : _c.trim()) || "";
+          const lines = this.wrapText(ctx, text, 450);
+          for (const line of lines) {
+            ctx.fillText(line, x + padding, currentY + 20);
+            currentY += 25;
+          }
+          currentY += 10;
+        } else if (tagName === "img") {
+          const img = child;
+          if (img.complete && img.naturalWidth > 0) {
+            const imgWidth = Math.min(450, img.naturalWidth);
+            const imgHeight = imgWidth / img.naturalWidth * img.naturalHeight;
+            ctx.drawImage(img, x + padding, currentY, imgWidth, imgHeight);
+            currentY += imgHeight + 10;
+          }
+        } else {
+          currentY = await this.drawElement(ctx, child, x, currentY);
+        }
+      }
+    }
+    return currentY;
+  }
+  /**
+   * 文本换行
+   */
+  static wrapText(ctx, text, maxWidth) {
+    const words = text.split("");
+    const lines = [];
+    let currentLine = "";
+    for (const char of words) {
+      const testLine = currentLine + char;
+      const metrics = ctx.measureText(testLine);
+      if (metrics.width > maxWidth && currentLine.length > 0) {
+        lines.push(currentLine);
+        currentLine = char;
+      } else {
+        currentLine = testLine;
+      }
+    }
+    if (currentLine) {
+      lines.push(currentLine);
+    }
+    return lines;
+  }
+  /**
+   * 下载 Canvas 为图片
+   */
+  static async downloadCanvas(canvas, options) {
+    const mimeType = options.format === "jpeg" ? "image/jpeg" : "image/png";
+    const dataUrl = canvas.toDataURL(mimeType, options.quality);
+    const a = document.createElement("a");
+    a.href = dataUrl;
+    a.download = `xiaohongshu_${Date.now()}.${options.format}`;
+    a.style.display = "none";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+  /**
+   * 获取预设尺寸选项
+   */
+  static getPresetSizes() {
+    return [
+      { name: "\u65B9\u5F62 (1:1)", width: 1080, height: 1080 },
+      { name: "\u7AD6\u7248 (4:5)", width: 1080, height: 1350 },
+      { name: "\u7AD6\u7248\u957F (3:4)", width: 1080, height: 1440 },
+      { name: "\u6807\u51C6\u7AD6\u7248 (9:16)", width: 1080, height: 1920 }
+    ];
+  }
+};
+
+// src/xhs/xhsPublishPreview.ts
+var import_obsidian12 = require("obsidian");
+var XhsPublishPreviewModal = class extends import_obsidian12.Modal {
+  constructor(app, content) {
+    super(app);
+    this.content = content;
+  }
+  onOpen() {
+    this.contentEl.empty();
+    this.contentEl.addClass("xhs-publish-preview-modal");
+    this.titleEl.setText("\u53D1\u5E03\u9884\u89C8 - \u5C0F\u7EA2\u4E66");
+    const previewContainer = this.contentEl.createEl("div", {
+      cls: "xhs-phone-preview"
+    });
+    const phoneFrame = previewContainer.createEl("div", {
+      cls: "xhs-phone-frame"
+    });
+    const phoneScreen = phoneFrame.createEl("div", {
+      cls: "xhs-phone-screen"
+    });
+    const statusBar = phoneScreen.createEl("div", {
+      cls: "xhs-status-bar"
+    });
+    statusBar.innerHTML = `
+            <span class="status-time">12:00</span>
+            <div class="status-icons">
+                <span class="icon-signal">\u{1F4F6}</span>
+                <span class="icon-wifi">\u{1F4E1}</span>
+                <span class="icon-battery">\u{1F50B}</span>
+            </div>
+        `;
+    const navBar = phoneScreen.createEl("div", {
+      cls: "xhs-navbar"
+    });
+    navBar.innerHTML = `
+            <span class="nav-back">\u2039</span>
+            <span class="nav-title">\u7B14\u8BB0\u8BE6\u60C5</span>
+            <span class="nav-more">\u22EF</span>
+        `;
+    const scrollContent = phoneScreen.createEl("div", {
+      cls: "xhs-scroll-content"
+    });
+    const clonedContent = this.content.cloneNode(true);
+    this.processContentForPreview(clonedContent);
+    const contentArea = scrollContent.createEl("div", {
+      cls: "xhs-content-area"
+    });
+    contentArea.appendChild(clonedContent);
+    const userInfo = scrollContent.createEl("div", {
+      cls: "xhs-user-info"
+    });
+    userInfo.innerHTML = `
+            <div class="user-avatar">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ff2442'/%3E%3Ctext x='50' y='70' text-anchor='middle' font-size='50' fill='white'%3E\u{1F464}%3C/text%3E%3C/svg%3E" alt="avatar">
+            </div>
+            <div class="user-details">
+                <div class="user-name">\u6211\u7684\u5C0F\u7EA2\u4E66</div>
+                <div class="publish-time">\u521A\u521A\u53D1\u5E03</div>
+            </div>
+            <button class="follow-btn">\u5173\u6CE8</button>
+        `;
+    const interactionBar = scrollContent.createEl("div", {
+      cls: "xhs-interaction-bar"
+    });
+    interactionBar.innerHTML = `
+            <div class="interaction-item">
+                <span class="interaction-icon">\u2764\uFE0F</span>
+                <span class="interaction-count">1.2k</span>
+            </div>
+            <div class="interaction-item">
+                <span class="interaction-icon">\u2B50</span>
+                <span class="interaction-count">856</span>
+            </div>
+            <div class="interaction-item">
+                <span class="interaction-icon">\u{1F4AC}</span>
+                <span class="interaction-count">234</span>
+            </div>
+            <div class="interaction-item">
+                <span class="interaction-icon">\u2197\uFE0F</span>
+                <span class="interaction-count">\u5206\u4EAB</span>
+            </div>
+        `;
+    const bottomNav = phoneScreen.createEl("div", {
+      cls: "xhs-bottom-nav"
+    });
+    bottomNav.innerHTML = `
+            <div class="nav-item active">\u{1F3E0}</div>
+            <div class="nav-item">\u{1F3A5}</div>
+            <div class="nav-item">\u2795</div>
+            <div class="nav-item">\u{1F4AC}</div>
+            <div class="nav-item">\u{1F464}</div>
+        `;
+    const tips = this.contentEl.createEl("div", {
+      cls: "xhs-preview-tips",
+      text: "\u{1F4A1} \u8FD9\u662F\u9884\u89C8\u6548\u679C\uFF0C\u5B9E\u9645\u53D1\u5E03\u540E\u6548\u679C\u53EF\u80FD\u7565\u6709\u4E0D\u540C"
+    });
+  }
+  /**
+   * 处理内容以适应预览
+   */
+  processContentForPreview(element) {
+    element.querySelectorAll(".xhs-hashtag-section").forEach((el) => el.remove());
+    element.querySelectorAll(".xhs-hashtag").forEach((el) => {
+      el.replaceWith(el.textContent || "");
+    });
+    const hashtagSection = document.createElement("div");
+    hashtagSection.className = "xhs-hashtag-preview";
+    const hashtags = /* @__PURE__ */ new Set();
+    element.querySelectorAll("p, li").forEach((el) => {
+      const text = el.textContent || "";
+      const matches = text.match(/#[^\s#]+/g);
+      if (matches) {
+        matches.forEach((tag) => hashtags.add(tag));
+      }
+    });
+    if (hashtags.size > 0) {
+      const label = document.createElement("div");
+      label.className = "hashtag-preview-label";
+      label.textContent = "\u8BDD\u9898\u6807\u7B7E";
+      hashtagSection.appendChild(label);
+      const tagsContainer = document.createElement("div");
+      tagsContainer.className = "hashtag-preview-tags";
+      hashtags.forEach((tag) => {
+        const tagEl = document.createElement("span");
+        tagEl.className = "hashtag-preview-tag";
+        tagEl.textContent = tag;
+        tagsContainer.appendChild(tagEl);
+      });
+      hashtagSection.appendChild(tagsContainer);
+    }
+    element.appendChild(hashtagSection);
+  }
+  onClose() {
+    this.contentEl.empty();
+  }
+};
+
+// src/xhs/xhsView.ts
+var VIEW_TYPE_XHS = "xhs-preview";
+var XhsView = class extends import_obsidian13.ItemView {
+  constructor(leaf, templateManager, settingsManager) {
+    super(leaf);
+    this.currentFile = null;
+    this.updateTimer = null;
+    this.isPreviewLocked = false;
+    this.templateManager = templateManager;
+    this.settingsManager = settingsManager;
+  }
+  getViewType() {
+    return VIEW_TYPE_XHS;
+  }
+  getDisplayText() {
+    return "\u5C0F\u7EA2\u4E66\u9884\u89C8";
+  }
+  getIcon() {
+    return "heart";
+  }
+  async onOpen() {
+    var _a, _b;
+    const container = this.containerEl.children[1];
+    container.empty();
+    container.classList.remove("view-content");
+    container.classList.add("xhs-view-content");
+    const toolbar = container.createEl("div", { cls: "xhs-toolbar" });
+    const toolbarLeft = toolbar.createEl("div", { cls: "xhs-toolbar-left" });
+    const toolbarRight = toolbar.createEl("div", { cls: "xhs-toolbar-right" });
+    const titleGroup = toolbarLeft.createEl("div", { cls: "xhs-title-group" });
+    titleGroup.createEl("span", { text: "\u5C0F\u7EA2\u4E66", cls: "xhs-toolbar-title" });
+    this.wordCountEl = titleGroup.createEl("span", { cls: "xhs-word-count" });
+    this.copyButton = toolbarRight.createEl("button", {
+      text: "\u590D\u5236\u5185\u5BB9",
+      cls: "xhs-copy-button"
+    });
+    this.copyButton.addEventListener("click", async () => {
+      if (this.previewEl) {
+        this.copyButton.disabled = true;
+        this.copyButton.setText("\u590D\u5236\u4E2D...");
+        try {
+          await this.copyToClipboard();
+          this.copyButton.setText("\u590D\u5236\u6210\u529F");
+          new import_obsidian13.Notice("\u5185\u5BB9\u5DF2\u590D\u5236\u5230\u526A\u8D34\u677F");
+          setTimeout(() => {
+            this.copyButton.disabled = false;
+            this.copyButton.setText("\u590D\u5236\u5185\u5BB9");
+          }, 2e3);
+        } catch (error) {
+          this.copyButton.setText("\u590D\u5236\u5931\u8D25");
+          new import_obsidian13.Notice("\u590D\u5236\u5931\u8D25: " + error);
+          setTimeout(() => {
+            this.copyButton.disabled = false;
+            this.copyButton.setText("\u590D\u5236\u5185\u5BB9");
+          }, 2e3);
+        }
+      }
+    });
+    this.exportButton = toolbarRight.createEl("button", {
+      text: "\u5BFC\u51FA\u56FE\u7247",
+      cls: "xhs-export-button"
+    });
+    this.exportButton.addEventListener("click", async () => {
+      if (this.previewEl) {
+        new XhsExportModal(this.app, async (options) => {
+          this.exportButton.disabled = true;
+          this.exportButton.setText("\u5BFC\u51FA\u4E2D...");
+          try {
+            const content = this.previewEl.querySelector(".xhs-content-container");
+            if (!content) {
+              throw new Error("\u6CA1\u6709\u53EF\u5BFC\u51FA\u7684\u5185\u5BB9");
+            }
+            await XhsExportManager.exportToImage(content, options);
+            this.exportButton.setText("\u5BFC\u51FA\u6210\u529F");
+            setTimeout(() => {
+              this.exportButton.disabled = false;
+              this.exportButton.setText("\u5BFC\u51FA\u56FE\u7247");
+            }, 2e3);
+          } catch (error) {
+            this.exportButton.setText("\u5BFC\u51FA\u5931\u8D25");
+            new import_obsidian13.Notice("\u5BFC\u51FA\u5931\u8D25: " + error);
+            setTimeout(() => {
+              this.exportButton.disabled = false;
+              this.exportButton.setText("\u5BFC\u51FA\u56FE\u7247");
+            }, 2e3);
+          }
+        }).open();
+      }
+    });
+    this.previewButton = toolbarRight.createEl("button", {
+      text: "\u53D1\u5E03\u9884\u89C8",
+      cls: "xhs-preview-button"
+    });
+    this.previewButton.addEventListener("click", () => {
+      if (this.previewEl) {
+        const content = this.previewEl.querySelector(".xhs-content-container");
+        if (content) {
+          new XhsPublishPreviewModal(this.app, content).open();
+        }
+      }
+    });
+    const bottomBar = container.createEl("div", { cls: "xhs-bottom-bar" });
+    const bottomControlsGroup = bottomBar.createEl("div", { cls: "xhs-controls-group" });
+    this.lockButton = bottomControlsGroup.createEl("button", {
+      cls: "xhs-lock-button",
+      attr: { "aria-label": "\u5173\u95ED\u5B9E\u65F6\u9884\u89C8" }
+    });
+    (0, import_obsidian13.setIcon)(this.lockButton, "lock");
+    this.lockButton.setAttribute("aria-label", "\u5F00\u542F\u5B9E\u65F6\u9884\u89C8");
+    this.lockButton.addEventListener("click", () => this.togglePreviewLock());
+    this.customTemplateSelect = this.createCustomSelect(
+      bottomControlsGroup,
+      "xhs-template-select",
+      this.getTemplateOptions()
+    );
+    (_a = this.customTemplateSelect.querySelector(".custom-select")) == null ? void 0 : _a.addEventListener("change", async (e) => {
+      const value = e.detail.value;
+      this.templateManager.setCurrentTemplate(value);
+      await this.settingsManager.updateSettings({
+        xhsTemplateId: value
+      });
+      this.templateManager.applyTemplate(this.previewEl);
+    });
+    const fontSizeGroup = bottomControlsGroup.createEl("div", { cls: "xhs-font-size-group" });
+    const decreaseButton = fontSizeGroup.createEl("button", {
+      cls: "xhs-font-size-btn",
+      text: "-"
+    });
+    this.fontSizeSelect = fontSizeGroup.createEl("input", {
+      cls: "xhs-font-size-input",
+      type: "text",
+      value: "15"
+    });
+    const increaseButton = fontSizeGroup.createEl("button", {
+      cls: "xhs-font-size-btn",
+      text: "+"
+    });
+    const settings = this.settingsManager.getSettings();
+    if (settings.xhsTemplateId) {
+      const templateSelect = this.customTemplateSelect.querySelector(".selected-text");
+      const templateDropdown = this.customTemplateSelect.querySelector(".select-dropdown");
+      if (templateSelect && templateDropdown) {
+        const options = this.getTemplateOptions();
+        const selected = options.find((o) => o.value === settings.xhsTemplateId);
+        if (selected) {
+          templateSelect.textContent = selected.label;
+          (_b = this.customTemplateSelect.querySelector(".custom-select")) == null ? void 0 : _b.setAttribute("data-value", selected.value);
+          templateDropdown.querySelectorAll(".select-item").forEach((el) => {
+            if (el.getAttribute("data-value") === selected.value) {
+              el.classList.add("selected");
+            } else {
+              el.classList.remove("selected");
+            }
+          });
+        }
+      }
+      this.templateManager.setCurrentTemplate(settings.xhsTemplateId);
+    } else {
+      this.templateManager.setCurrentTemplate("xhs-cute");
+    }
+    if (settings.xhsFontSize) {
+      this.fontSizeSelect.value = settings.xhsFontSize.toString();
+      this.templateManager.setFontSize(settings.xhsFontSize);
+    }
+    const updateFontSize = async () => {
+      const size = parseInt(this.fontSizeSelect.value);
+      this.templateManager.setFontSize(size);
+      await this.settingsManager.updateSettings({
+        xhsFontSize: size
+      });
+      this.templateManager.applyTemplate(this.previewEl);
+    };
+    decreaseButton.addEventListener("click", () => {
+      const currentSize = parseInt(this.fontSizeSelect.value);
+      if (currentSize > 12) {
+        this.fontSizeSelect.value = (currentSize - 1).toString();
+        updateFontSize();
+      }
+    });
+    increaseButton.addEventListener("click", () => {
+      const currentSize = parseInt(this.fontSizeSelect.value);
+      if (currentSize < 24) {
+        this.fontSizeSelect.value = (currentSize + 1).toString();
+        updateFontSize();
+      }
+    });
+    this.fontSizeSelect.addEventListener("change", updateFontSize);
+    this.previewEl = container.createEl("div", { cls: "xhs-preview-area" });
+    const helpButtonContainer = container.createEl("div", { cls: "xhs-help-button-container" });
+    const helpButton = helpButtonContainer.createEl("button", {
+      cls: "xhs-help-button",
+      attr: { "aria-label": "\u4F7F\u7528\u6307\u5357" }
+    });
+    (0, import_obsidian13.setIcon)(helpButton, "help");
+    helpButtonContainer.createEl("div", {
+      cls: "xhs-help-tooltip",
+      text: `\u5C0F\u7EA2\u4E66\u9884\u89C8\u6307\u5357\uFF1A
+1. \u9009\u62E9\u559C\u6B22\u7684\u6A21\u677F
+2. \u8C03\u6574\u5B57\u53F7\u5927\u5C0F
+3. \u4F7F\u7528 #\u8BDD\u9898\u6807\u7B7E \u4F1A\u81EA\u52A8\u8BC6\u522B
+4. \u6807\u9898\u4F1A\u81EA\u52A8\u6DFB\u52A0 emoji
+5. \u70B9\u51FB\u3010\u590D\u5236\u5185\u5BB9\u3011\u7C98\u8D34\u5230\u5C0F\u7EA2\u4E66
+6. \u89E3\u9501\u6309\u94AE\u63A7\u5236\u5B9E\u65F6\u9884\u89C8`
+    });
+    this.registerEvent(
+      this.app.workspace.on("file-open", this.onFileOpen.bind(this))
+    );
+    this.registerEvent(
+      this.app.vault.on("modify", this.onFileModify.bind(this))
+    );
+    const currentFile = this.app.workspace.getActiveFile();
+    await this.onFileOpen(currentFile);
+  }
+  updateControlsState(enabled) {
+    this.lockButton.disabled = !enabled;
+    const templateSelect = this.customTemplateSelect.querySelector(".custom-select");
+    if (templateSelect) {
+      templateSelect.classList.toggle("disabled", !enabled);
+      templateSelect.setAttribute("style", `pointer-events: ${enabled ? "auto" : "none"}`);
+    }
+    this.fontSizeSelect.disabled = !enabled;
+    this.copyButton.disabled = !enabled;
+    const fontSizeButtons = this.containerEl.querySelectorAll(".xhs-font-size-btn");
+    fontSizeButtons.forEach((button) => {
+      button.disabled = !enabled;
+    });
+  }
+  async onFileOpen(file) {
+    this.currentFile = file;
+    if (!file || file.extension !== "md") {
+      this.previewEl.empty();
+      this.previewEl.createEl("div", {
+        text: "\u53EA\u80FD\u9884\u89C8 markdown \u6587\u672C\u6587\u6863",
+        cls: "xhs-empty-message"
+      });
+      this.updateControlsState(false);
+      this.updateWordCount(0);
+      return;
+    }
+    this.updateControlsState(true);
+    this.isPreviewLocked = false;
+    (0, import_obsidian13.setIcon)(this.lockButton, "unlock");
+    await this.updatePreview();
+  }
+  async togglePreviewLock() {
+    this.isPreviewLocked = !this.isPreviewLocked;
+    const lockIcon = this.isPreviewLocked ? "lock" : "unlock";
+    const lockStatus = this.isPreviewLocked ? "\u5F00\u542F\u5B9E\u65F6\u9884\u89C8" : "\u5173\u95ED\u5B9E\u65F6\u9884\u89C8";
+    (0, import_obsidian13.setIcon)(this.lockButton, lockIcon);
+    this.lockButton.setAttribute("aria-label", lockStatus);
+    if (!this.isPreviewLocked) {
+      await this.updatePreview();
+    }
+  }
+  async onFileModify(file) {
+    if (file === this.currentFile && !this.isPreviewLocked) {
+      if (this.updateTimer) {
+        clearTimeout(this.updateTimer);
+      }
+      this.updateTimer = setTimeout(() => {
+        this.updatePreview();
+      }, 500);
+    }
+  }
+  async updatePreview() {
+    if (!this.currentFile)
+      return;
+    const scrollPosition = this.previewEl.scrollTop;
+    const prevHeight = this.previewEl.scrollHeight;
+    const isAtBottom = this.previewEl.scrollHeight - this.previewEl.scrollTop <= this.previewEl.clientHeight + 100;
+    this.previewEl.empty();
+    const content = await this.app.vault.cachedRead(this.currentFile);
+    await import_obsidian13.MarkdownRenderer.render(
+      this.app,
+      content,
+      this.previewEl,
+      this.currentFile.path,
+      this
+    );
+    XhsConverter.formatContent(this.previewEl);
+    this.templateManager.applyTemplate(this.previewEl);
+    const wordCount = XhsConverter.getWordCount(this.previewEl);
+    this.updateWordCount(wordCount);
+    if (isAtBottom) {
+      requestAnimationFrame(() => {
+        this.previewEl.scrollTop = this.previewEl.scrollHeight;
+      });
+    } else {
+      const heightDiff = this.previewEl.scrollHeight - prevHeight;
+      this.previewEl.scrollTop = scrollPosition + heightDiff;
+    }
+  }
+  updateWordCount(count) {
+    const maxWords = 1e3;
+    const isOverLimit = count > maxWords;
+    this.wordCountEl.textContent = `${count}/${maxWords}\u5B57`;
+    this.wordCountEl.classList.toggle("over-limit", isOverLimit);
+    if (isOverLimit) {
+      this.wordCountEl.setAttribute("style", "color: #ff2442;");
+    } else {
+      this.wordCountEl.removeAttribute("style");
+    }
+  }
+  async copyToClipboard() {
+    const content = this.previewEl.querySelector(".xhs-content-container");
+    if (!content) {
+      throw new Error("\u6CA1\u6709\u53EF\u590D\u5236\u7684\u5185\u5BB9");
+    }
+    const clone = content.cloneNode(true);
+    clone.querySelectorAll(".xhs-hashtag-section").forEach((el) => el.remove());
+    clone.querySelectorAll(".xhs-hashtag").forEach((el) => el.remove());
+    let text = clone.innerText || "";
+    const hashtagSection = content.querySelector(".xhs-hashtag-section");
+    if (hashtagSection) {
+      const tags = hashtagSection.querySelectorAll(".xhs-hashtag-tag");
+      const tagTexts = Array.from(tags).map((tag) => {
+        var _a;
+        return ((_a = tag.textContent) == null ? void 0 : _a.trim()) || "";
+      }).filter((t) => t);
+      if (tagTexts.length > 0) {
+        text += "\n\n" + tagTexts.join(" ");
+      }
+    }
+    await navigator.clipboard.writeText(text);
+  }
+  createCustomSelect(parent, className, options) {
+    var _a;
+    const container = parent.createEl("div", { cls: "custom-select-container" });
+    const select = container.createEl("div", { cls: "custom-select" });
+    const selectedText = select.createEl("span", { cls: "selected-text" });
+    const arrow = select.createEl("span", { cls: "select-arrow", text: "\u25BE" });
+    const dropdown = container.createEl("div", { cls: "select-dropdown" });
+    let autoCloseTimer = null;
+    options.forEach((option) => {
+      const item = dropdown.createEl("div", {
+        cls: "select-item",
+        text: option.label
+      });
+      item.dataset.value = option.value;
+      item.addEventListener("click", () => {
+        if (autoCloseTimer !== null) {
+          clearTimeout(autoCloseTimer);
+          autoCloseTimer = null;
+        }
+        dropdown.querySelectorAll(".select-item").forEach((el) => el.classList.remove("selected"));
+        item.classList.add("selected");
+        selectedText.textContent = option.label;
+        select.dataset.value = option.value;
+        dropdown.classList.remove("show");
+        select.dispatchEvent(new CustomEvent("change", {
+          detail: { value: option.value }
+        }));
+      });
+    });
+    if (options.length > 0) {
+      selectedText.textContent = options[0].label;
+      select.dataset.value = options[0].value;
+      (_a = dropdown.querySelector(".select-item")) == null ? void 0 : _a.classList.add("selected");
+    }
+    select.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpening = !dropdown.classList.contains("show");
+      if (autoCloseTimer !== null) {
+        clearTimeout(autoCloseTimer);
+        autoCloseTimer = null;
+      }
+      dropdown.classList.toggle("show");
+      if (isOpening) {
+        autoCloseTimer = window.setTimeout(() => {
+          dropdown.classList.remove("show");
+          autoCloseTimer = null;
+        }, 2500);
+      }
+    });
+    document.addEventListener("click", () => {
+      if (autoCloseTimer !== null) {
+        clearTimeout(autoCloseTimer);
+        autoCloseTimer = null;
+      }
+      dropdown.classList.remove("show");
+    });
+    return container;
+  }
+  getTemplateOptions() {
+    const templates3 = this.templateManager.getAllTemplates();
+    return templates3.length > 0 ? templates3.map((t) => ({ value: t.id, label: t.name })) : [{ value: "xhs-cute", label: "\u53EF\u7231\u7C89" }];
+  }
+  onClose() {
+    return Promise.resolve();
+  }
+};
+var XhsExportModal = class extends import_obsidian13.Modal {
+  constructor(app, onSubmit) {
+    super(app);
+    this.onSubmit = onSubmit;
+  }
+  onOpen() {
+    this.contentEl.empty();
+    this.contentEl.addClass("xhs-export-modal");
+    this.titleEl.setText("\u5BFC\u51FA\u56FE\u7247\u8BBE\u7F6E");
+    this.contentEl.createEl("div", { text: "\u56FE\u7247\u683C\u5F0F\uFF1A", cls: "xhs-export-label" });
+    this.formatSelect = this.contentEl.createEl("select", { cls: "xhs-export-select" });
+    this.formatSelect.createEl("option", { value: "png", text: "PNG\uFF08\u65E0\u635F\uFF09" });
+    this.formatSelect.createEl("option", { value: "jpeg", text: "JPEG\uFF08\u8F83\u5C0F\u6587\u4EF6\uFF09" });
+    const qualityContainer = this.contentEl.createEl("div", { cls: "xhs-export-row" });
+    qualityContainer.createEl("label", { text: "JPEG \u8D28\u91CF\uFF1A", cls: "xhs-export-label" });
+    this.qualityInput = qualityContainer.createEl("input", { cls: "xhs-export-slider" });
+    this.qualityInput.type = "range";
+    this.qualityInput.min = "0.1";
+    this.qualityInput.max = "1.0";
+    this.qualityInput.step = "0.05";
+    this.qualityInput.value = "0.95";
+    this.qualityInput.addClass("xhs-export-slider");
+    const qualityValue = qualityContainer.createEl("span", { text: "95%", cls: "xhs-export-value" });
+    this.qualityInput.addEventListener("input", () => {
+      qualityValue.textContent = Math.round(parseFloat(this.qualityInput.value) * 100) + "%";
+    });
+    this.contentEl.createEl("div", { text: "\u5BFC\u51FA\u5206\u8FA8\u7387\uFF08\u5F71\u54CD\u56FE\u7247\u6E05\u6670\u5EA6\uFF09\uFF1A", cls: "xhs-export-label" });
+    this.scaleSelect = this.contentEl.createEl("select", { cls: "xhs-export-select" });
+    this.scaleSelect.createEl("option", { value: "1", text: "1x\uFF08\u6807\u51C6\uFF09" });
+    this.scaleSelect.createEl("option", { value: "2", text: "2x\uFF08\u9AD8\u6E05\uFF09- \u63A8\u8350" });
+    this.scaleSelect.createEl("option", { value: "3", text: "3x\uFF08\u8D85\u9AD8\u6E05\uFF09" });
+    this.scaleSelect.value = "2";
+    this.contentEl.createEl("div", { text: "\u9884\u8BBE\u5C3A\u5BF8\uFF08\u5C0F\u7EA2\u4E66\u63A8\u8350\uFF09\uFF1A", cls: "xhs-export-label" });
+    this.presetSizeSelect = this.contentEl.createEl("select", { cls: "xhs-export-select" });
+    this.presetSizeSelect.createEl("option", { value: "auto", text: "\u81EA\u52A8\uFF08\u4FDD\u6301\u539F\u59CB\u6BD4\u4F8B\uFF09" });
+    const presetSizes = XhsExportManager.getPresetSizes();
+    presetSizes.forEach((size) => {
+      this.presetSizeSelect.createEl("option", {
+        value: `${size.width}x${size.height}`,
+        text: `${size.name} (${size.width}x${size.height})`
+      });
+    });
+    const buttonContainer = this.contentEl.createEl("div", { cls: "xhs-export-buttons" });
+    const cancelBtn = buttonContainer.createEl("button", { text: "\u53D6\u6D88" });
+    const submitBtn = buttonContainer.createEl("button", { text: "\u5BFC\u51FA", cls: "mod-cta" });
+    cancelBtn.addEventListener("click", () => this.close());
+    submitBtn.addEventListener("click", () => this.handleSubmit());
+  }
+  handleSubmit() {
+    const options = {
+      format: this.formatSelect.value,
+      quality: parseFloat(this.qualityInput.value),
+      scale: parseInt(this.scaleSelect.value)
+    };
+    const presetSize = this.presetSizeSelect.value;
+    if (presetSize !== "auto") {
+      const [width, height] = presetSize.split("x").map(Number);
+      options.width = width;
+      options.height = height;
+    }
+    this.onSubmit(options);
+    this.close();
+  }
+  onClose() {
+    this.contentEl.empty();
+  }
+};
+
+// src/xhs/xhsTemplateManager.ts
+var XhsTemplateManager = class {
+  constructor(app, settingsManager) {
+    this.templates = /* @__PURE__ */ new Map();
+    this.currentFont = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+    this.currentFontSize = 15;
+    this.app = app;
+    this.settingsManager = settingsManager;
+  }
+  async loadTemplates() {
+    const { templates: templates3 } = await Promise.resolve().then(() => (init_templates2(), templates_exports2));
+    for (const [id, template] of Object.entries(templates3)) {
+      this.templates.set(id, template);
+    }
+  }
+  setCurrentTemplate(id) {
+    const template = this.templates.get(id);
+    if (template) {
+      this.currentTemplate = template;
+      return true;
+    }
+    console.error("\u5C0F\u7EA2\u4E66\u6A21\u677F\u672A\u627E\u5230:", id);
+    return false;
+  }
+  setFont(fontFamily) {
+    this.currentFont = fontFamily;
+  }
+  setFontSize(size) {
+    this.currentFontSize = size;
+  }
+  getCurrentTemplate() {
+    return this.currentTemplate;
+  }
+  getAllTemplates() {
+    return Array.from(this.templates.values());
+  }
+  applyTemplate(element, template) {
+    const styles = template ? template.styles : this.currentTemplate.styles;
+    const container = element.querySelector(".xhs-content-container");
+    if (container) {
+      container.setAttribute("style", `${styles.container}; font-family: ${this.currentFont};`);
+    }
+    ["h1", "h2", "h3", "h4", "h5", "h6"].forEach((tag) => {
+      element.querySelectorAll(tag).forEach((el) => {
+        const emojiPrefix = el.querySelector(".emoji-prefix");
+        if (emojiPrefix) {
+          emojiPrefix.setAttribute("style", styles.emoji.size);
+        }
+      });
+    });
+    element.querySelectorAll("p").forEach((el) => {
+      var _a, _b;
+      if (!((_a = el.parentElement) == null ? void 0 : _a.closest("p")) && !((_b = el.parentElement) == null ? void 0 : _b.closest("blockquote"))) {
+        el.setAttribute("style", `${styles.paragraph}; font-family: ${this.currentFont}; font-size: ${this.currentFontSize}px;`);
+      }
+    });
+    element.querySelectorAll("ul, ol").forEach((el) => {
+      el.setAttribute("style", styles.list.container);
+    });
+    element.querySelectorAll("li").forEach((el) => {
+      el.setAttribute("style", `${styles.list.item}; font-family: ${this.currentFont}; font-size: ${this.currentFontSize}px;`);
+    });
+    element.querySelectorAll("blockquote").forEach((el) => {
+      el.setAttribute("style", `${styles.quote}; font-family: ${this.currentFont}; font-size: ${this.currentFontSize}px;`);
+    });
+    element.querySelectorAll("pre").forEach((el) => {
+      el.setAttribute("style", styles.code.block);
+    });
+    element.querySelectorAll("code:not(pre code)").forEach((el) => {
+      el.setAttribute("style", styles.code.inline);
+    });
+    element.querySelectorAll("a").forEach((el) => {
+      el.setAttribute("style", styles.link);
+    });
+    element.querySelectorAll("strong").forEach((el) => {
+      el.setAttribute("style", styles.emphasis.strong);
+    });
+    element.querySelectorAll("em").forEach((el) => {
+      el.setAttribute("style", styles.emphasis.em);
+    });
+    element.querySelectorAll("img").forEach((el) => {
+      el.setAttribute("style", styles.image);
+    });
+    const hashtagSection = element.querySelector(".xhs-hashtag-section");
+    if (hashtagSection) {
+      hashtagSection.setAttribute("style", styles.hashtag.container);
+    }
+    element.querySelectorAll(".xhs-hashtag").forEach((el) => {
+      el.setAttribute("style", styles.hashtag.tag);
+    });
+    element.querySelectorAll(".hashtag-icon").forEach((el) => {
+      el.setAttribute("style", styles.hashtag.icon);
+    });
+    element.querySelectorAll(".xhs-hashtag-label").forEach((el) => {
+      el.setAttribute("style", styles.hashtag.label);
+    });
+  }
+};
+
 // src/main.ts
-var MPPlugin = class extends import_obsidian11.Plugin {
+var MPPlugin = class extends import_obsidian14.Plugin {
   async onload() {
     this.settingsManager = new SettingsManager(this);
     await this.settingsManager.loadSettings();
@@ -7181,18 +8385,35 @@ var MPPlugin = class extends import_obsidian11.Plugin {
     MPConverter.initialize(this.app);
     ExportManager.initialize(this.app);
     DonateManager.initialize(this.app, this);
+    XhsConverter.initialize(this.app);
+    this.xhsTemplateManager = new XhsTemplateManager(this.app, this.settingsManager);
+    await this.xhsTemplateManager.loadTemplates();
     this.registerView(
       VIEW_TYPE_MP,
       (leaf) => new MPView(leaf, this.templateManager, this.settingsManager)
     );
+    this.registerView(
+      VIEW_TYPE_XHS,
+      (leaf) => new XhsView(leaf, this.xhsTemplateManager, this.settingsManager)
+    );
     this.addRibbonIcon("eye", "\u6253\u5F00Ai\u6DC7\u6A66\u5B66\u6392\u7248\u9884\u89C8", () => {
       this.activateView();
+    });
+    this.addRibbonIcon("heart", "\u6253\u5F00\u5C0F\u7EA2\u4E66\u9884\u89C8", () => {
+      this.activateXhsView();
     });
     this.addCommand({
       id: "open-mp-preview",
       name: "\u6253\u5F00Ai\u6DC7\u6A66\u5B66\u6392\u7248\u9884\u89C8",
       callback: async () => {
         await this.activateView();
+      }
+    });
+    this.addCommand({
+      id: "open-xhs-preview",
+      name: "\u6253\u5F00\u5C0F\u7EA2\u4E66\u9884\u89C8",
+      callback: async () => {
+        await this.activateXhsView();
       }
     });
     this.addSettingTab(new MPSettingTab(this.app, this));
@@ -7210,7 +8431,23 @@ var MPPlugin = class extends import_obsidian11.Plugin {
         active: true
       });
     } else {
-      new import_obsidian11.Notice("\u65E0\u6CD5\u521B\u5EFA\u89C6\u56FE\u9762\u677F");
+      new import_obsidian14.Notice("\u65E0\u6CD5\u521B\u5EFA\u89C6\u56FE\u9762\u677F");
+    }
+  }
+  async activateXhsView() {
+    const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_XHS);
+    if (leaves.length > 0) {
+      this.app.workspace.revealLeaf(leaves[0]);
+      return;
+    }
+    const rightLeaf = this.app.workspace.getRightLeaf(false);
+    if (rightLeaf) {
+      await rightLeaf.setViewState({
+        type: VIEW_TYPE_XHS,
+        active: true
+      });
+    } else {
+      new import_obsidian14.Notice("\u65E0\u6CD5\u521B\u5EFA\u5C0F\u7EA2\u4E66\u89C6\u56FE\u9762\u677F");
     }
   }
 };

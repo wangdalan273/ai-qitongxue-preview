@@ -6,9 +6,15 @@ import { MPConverter } from './converter';
 import { DonateManager } from './donateManager';
 import { ExportManager } from './exportManager';
 import { MPSettingTab } from './settings/MPSettingTab';
+import { XhsView, VIEW_TYPE_XHS } from './xhs/xhsView';
+import { XhsTemplateManager } from './xhs/xhsTemplateManager';
+import { XhsConverter } from './xhs/xhsConverter';
+
 export default class MPPlugin extends Plugin {
   settingsManager: SettingsManager;
   templateManager: TemplateManager;
+  xhsTemplateManager: XhsTemplateManager;
+
   async onload() {
     // 初始化设置管理器
     this.settingsManager = new SettingsManager(this);
@@ -25,10 +31,21 @@ export default class MPPlugin extends Plugin {
 
     DonateManager.initialize(this.app, this);
 
-    // 注册视图
+    // 初始化小红书功能
+    XhsConverter.initialize(this.app);
+    this.xhsTemplateManager = new XhsTemplateManager(this.app, this.settingsManager);
+    await this.xhsTemplateManager.loadTemplates();
+
+    // 注册公众号视图
     this.registerView(
       VIEW_TYPE_MP,
       (leaf) => new MPView(leaf, this.templateManager, this.settingsManager)
+    );
+
+    // 注册小红书视图
+    this.registerView(
+      VIEW_TYPE_XHS,
+      (leaf) => new XhsView(leaf, this.xhsTemplateManager, this.settingsManager)
     );
 
     // 自动打开视图但不聚焦
@@ -50,12 +67,26 @@ export default class MPPlugin extends Plugin {
       this.activateView();
     });
 
+    // 添加小红书 Ribbon 图标
+    this.addRibbonIcon("heart", "打开小红书预览", () => {
+      this.activateXhsView();
+    });
+
     // 添加命令到命令面板
     this.addCommand({
             id: 'open-mp-preview',
             name: '打开Ai淇橦学排版预览',
       callback: async () => {
         await this.activateView();
+            }
+    });
+
+    // 添加小红书命令
+    this.addCommand({
+            id: 'open-xhs-preview',
+            name: '打开小红书预览',
+      callback: async () => {
+        await this.activateXhsView();
             }
     });
 
@@ -81,6 +112,27 @@ export default class MPPlugin extends Plugin {
     } else {
       // 如果无法获取右侧面板，显示错误提示
             new Notice('无法创建视图面板');
+    }
+  }
+
+  async activateXhsView() {
+    // 如果视图已经存在，激活它
+    const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_XHS);
+    if (leaves.length > 0) {
+      this.app.workspace.revealLeaf(leaves[0]);
+      return;
+    }
+
+    // 创建新视图
+    const rightLeaf = this.app.workspace.getRightLeaf(false);
+    if (rightLeaf) {
+      await rightLeaf.setViewState({
+        type: VIEW_TYPE_XHS,
+        active: true,
+      });
+    } else {
+      // 如果无法获取右侧面板，显示错误提示
+            new Notice('无法创建小红书视图面板');
     }
   }
 }

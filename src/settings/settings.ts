@@ -11,6 +11,9 @@ interface MPSettings {
     backgrounds: Background[];
     customBackgrounds: Background[];
     customFonts: { value: string; label: string; isPreset?: boolean }[];
+    // 小红书相关设置
+    xhsTemplateId: string;
+    xhsFontSize: number;
 }
 
 const DEFAULT_SETTINGS: MPSettings = {
@@ -26,13 +29,16 @@ const DEFAULT_SETTINGS: MPSettings = {
         {
             value: 'Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, "PingFang SC", Cambria, Cochin, Georgia, Times, "Times New Roman", serif',
             label: '默认字体',
-            isPreset: true 
+            isPreset: true
         },
         { value: 'SimSun, "宋体", serif', label: '宋体', isPreset: true },
         { value: 'SimHei, "黑体", sans-serif', label: '黑体', isPreset: true },
         { value: 'KaiTi, "楷体", serif', label: '楷体', isPreset: true },
         { value: '"Microsoft YaHei", "微软雅黑", sans-serif', label: '雅黑', isPreset: true }
     ],
+    // 小红书相关设置
+    xhsTemplateId: 'xhs-cute',
+    xhsFontSize: 15,
 };
 
 export class SettingsManager {

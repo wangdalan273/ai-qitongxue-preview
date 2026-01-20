@@ -1,0 +1,42 @@
+{
+    "id": "xhs-cute",
+    "name": "可爱粉",
+    "description": "温柔粉色系，适合生活分享",
+    "styles": {
+        "container": "background: linear-gradient(135deg, #fff5f5 0%, #ffe4e6 100%); padding: 20px; border-radius: 16px; box-shadow: 0 2px 12px rgba(255, 36, 66, 0.08);",
+        "hashtag": {
+            "container": "display: flex; flex-direction: column; gap: 12px; margin-top: 24px; padding: 16px; background: rgba(255, 36, 66, 0.06); border-radius: 12px; border: 1px solid rgba(255, 36, 66, 0.1);",
+            "tag": "display: inline-flex; align-items: center; gap: 4px; padding: 8px 14px; background: linear-gradient(135deg, #ff2442 0%, #ff6b6b 100%); color: white; border-radius: 20px; font-size: 14px; font-weight: 500; box-shadow: 0 2px 8px rgba(255, 36, 66, 0.2); transition: transform 0.2s;",
+            "icon": "font-size: 16px; opacity: 0.9;",
+            "label": "font-size: 13px; color: #ff2442; font-weight: 600; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"
+        },
+        "emoji": {
+            "size": "font-size: 1.3em; margin-right: 6px;",
+            "spacing": "6px"
+        },
+        "title": {
+            "emojiPrefix": "font-size: 1.2em; margin-right: 6px;",
+            "shortLength": "font-size: 1.1em; color: #ff2442; font-weight: 600;"
+        },
+        "paragraph": "line-height: 1.9; margin-top: 12px; font-size: 15px; color: #4a4a4a;",
+        "code": {
+            "block": "background: #fff5f5; border: 1px solid #ffe4e6; border-radius: 12px; padding: 16px; margin: 16px 0; overflow-x: auto; color: #4a4a4a;",
+            "inline": "background: #fff5f5; color: #ff2442; padding: 3px 8px; border-radius: 6px; font-size: 14px; border: 1px solid #ffe4e6;"
+        },
+        "list": {
+            "container": "padding-left: 24px; margin-top: 12px;",
+            "item": "line-height: 1.8; margin-top: 8px; color: #4a4a4a;"
+        },
+        "quote": "border-left: 4px solid #ff2442; background: linear-gradient(90deg, rgba(255, 36, 66, 0.05) 0%, transparent 100%); padding: 12px 16px; margin: 16px 0; border-radius: 0 12px 12px 0; color: #666; font-style: italic;",
+        "image": "width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 12px; margin: 16px 0; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);",
+        "link": "color: #ff2442; text-decoration: none; border-bottom: 1px dashed #ff2442; transition: opacity 0.2s;",
+        "emphasis": {
+            "strong": "font-weight: 600; color: #ff2442;",
+            "em": "font-style: italic; color: #ff6b6b;"
+        }
+    },
+    "config": {
+        "maxWords": 1000,
+        "defaultImageRatio": "4:3"
+    }
+}
